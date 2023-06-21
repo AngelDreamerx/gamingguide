@@ -47,3 +47,5 @@ _actual*.*
 _output
 /types
 .eslintcache
+
+local_assets
