@@ -10,3 +10,6 @@ export const sound = writable(true)
 
 export const chaptersDone = writable(JSON.parse(localStorage.getItem('chaptersDone') || '[]')) // use empty array as fallback
 chaptersDone.subscribe((value) => localStorage.setItem('chaptersDone', JSON.stringify(value)))
+
+export const displayGlossary = writable(false)
+export const displayAchievements = writable(false)

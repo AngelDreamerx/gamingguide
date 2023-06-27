@@ -51,7 +51,7 @@
 </script>
 
 <div class="mt-32 mx-auto w-[70%]"> 
-    <ul class="flex gap-16 items-center">
+    <ul class="flex gap-16 items-center justify-center">
         {#each chapters as chapter}
             <li class="w-fit" >
                 <button class="flex flex-col items-center gap-4 relative" on:click={() => {
@@ -89,7 +89,6 @@
     span#chapter-title.selected {
         @apply font-bold text-2xl;
     }
-
 
     span#chapter-progress.selected {
         @apply -bottom-12 text-sky-600 text-2xl font-bold;

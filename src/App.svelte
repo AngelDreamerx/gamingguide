@@ -3,9 +3,10 @@
   import NamePickerStep from "./components/NamePickerStep.svelte";
   import GreetingStep from "./components/GreetingStep.svelte";
 
-  import { username, greetingDone } from './lib/stores'
+  import { username, greetingDone, displayAchievements, displayGlossary } from './lib/stores'
   import Navbar from "./components/Navbar.svelte";
-  import MainMenu from "./components/MainMenu.svelte";
+  import ChapterSelect from "./components/ChapterSelect.svelte";
+  import Glossary from "./components/Glossary.svelte";
 </script>
 
 <main class="h-screen w-screen relative">
@@ -17,7 +18,13 @@
   {:else} 
     <div class="z-40 flex flex-col h-full relative">
       <Navbar />
-      <MainMenu />
+      {#if $displayGlossary}
+        <Glossary />
+      {:else if $displayAchievements}
+        <div>Achievements</div>
+      {:else}
+        <ChapterSelect />
+      {/if}
     </div>
   {/if}
   <MainMenuBackground />
