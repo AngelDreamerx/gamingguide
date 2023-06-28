@@ -10,34 +10,52 @@
     import chapter3locked from "../assets/backgrounds/HG_75-36.png"
     import chapter4locked from "../assets/backgrounds/HG_75-37.png"
 
-    import { chaptersDone } from "../lib/stores"
+    import { chaptersProgress } from "../lib/stores"
 
-    const chapters = [
+    let chapters = [
         {
             id: 0, 
             name: "Kapitel 1",
             image: chapter1,
             isUnlocked: true,
+            progress: 0
         },{
             id: 1, 
             name: "Kapitel 2",
             image: chapter2,
             lockImage: chapter2locked,
-            isUnlocked: $chaptersDone.includes(0)
+            isUnlocked: false,
+            progress: 0
         },{
             id: 2, 
             name: "Kapitel 3",
             image: chapter3,
             lockImage: chapter3locked,
-            isUnlocked: $chaptersDone.includes(1)
+            isUnlocked: false,
+            progress: 0
         },{
             id: 3, 
             name: "Kapitel 4",
             image: chapter4,
             lockImage: chapter4locked,
-            isUnlocked: $chaptersDone.includes(2)
+            isUnlocked: false,
+            progress: 0
         },
     ]
+    
+    chaptersProgress.subscribe(value => {
+        let previousProgress = 100
+        chapters = chapters.map(chapter => {
+            const progress = value[chapter.id] || 0;
+            const isUnlocked = previousProgress === 100 
+            previousProgress = progress
+            return {
+                ...chapter,
+                progress,
+                isUnlocked 
+            }
+        })
+    })
 
     let selectedChapter = 0
 
@@ -48,18 +66,26 @@
     }
 
     let displayLockedHint = false
+    
+    const clickChapter = (index) => {
+        // IMPORTANT //
+        chaptersProgress.update((value) => {
+            return {...value, [index]: 100 }
+        })
+    } 
 </script>
 
 <div class="mt-32 mx-auto w-[70%]"> 
     <ul class="flex gap-16 items-center justify-center">
-        {#each chapters as chapter}
+        {#each chapters as chapter (chapter.id)}
             <li class="w-fit" >
                 <button class="flex flex-col items-center gap-4 relative" on:click={() => {
                     if(!chapter.isUnlocked) { displayLockedHint = true }
+                    else { clickChapter(chapter.id) }
                 }} on:mouseenter={() => selectChapter(chapter.id)}>                
                     <span id="chapter-title" class:selected={selectedChapter === chapter.id}>{chapter.name}</span>
                     <img class:selected={selectedChapter === chapter.id}  src={chapter.isUnlocked ? chapter.image : chapter.lockImage} alt={chapter.name}/>
-                    <span id="chapter-progress" class="text-white absolute bottom-4 text-lg font-semibold" class:selected={selectedChapter === chapter.id}>0%</span>
+                    <span id="chapter-progress" class="text-white absolute bottom-4 text-lg font-semibold" class:selected={selectedChapter === chapter.id}>{chapter.progress}%</span>
                 </button>
             </li>
         {/each}
