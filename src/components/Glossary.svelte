@@ -2,8 +2,34 @@
     import ArrowUp from "svelte-icons/fa/FaAngleUp.svelte"
     import ArrowDown from "svelte-icons/fa/FaAngleDown.svelte"
     import Search from "svelte-icons/fa/FaSearch.svelte"
+    import yuWireframe from "../assets/yu/wireframe.png"
 
     const words = [
+        {
+            title: "GG",
+            description: "Nach Ende eines Spiels beglückwünschen sich Spieler mit einem fair gemeinten „Good Game“ also „gutes Spiel“",
+            language: "English"
+        },
+        {
+            title: "GG",
+            description: "Nach Ende eines Spiels beglückwünschen sich Spieler mit einem fair gemeinten „Good Game“ also „gutes Spiel“",
+            language: "English"
+        },
+        {
+            title: "GG",
+            description: "Nach Ende eines Spiels beglückwünschen sich Spieler mit einem fair gemeinten „Good Game“ also „gutes Spiel“",
+            language: "English"
+        },
+        {
+            title: "GG",
+            description: "Nach Ende eines Spiels beglückwünschen sich Spieler mit einem fair gemeinten „Good Game“ also „gutes Spiel“",
+            language: "English"
+        },
+        {
+            title: "GG",
+            description: "Nach Ende eines Spiels beglückwünschen sich Spieler mit einem fair gemeinten „Good Game“ also „gutes Spiel“",
+            language: "English"
+        },
         {
             title: "GG",
             description: "Nach Ende eines Spiels beglückwünschen sich Spieler mit einem fair gemeinten „Good Game“ also „gutes Spiel“",
@@ -67,9 +93,9 @@
     }
 </script>
 
-<div class="mx-auto w-[70%]">
-    <ul class="flex flex-col gap-4">
-        <li class="flex gap-4">
+<div class="mx-auto w-[70%] min-h-0 overflow-hidden">
+    <div class="flex flex-col gap-4 h-full">
+        <div class="flex gap-4">
             <div class="relative">
                 <div class="absolute left-2 top-[50%] -translate-y-[50%] h-4 w-4 text-sky-600 text-opacity-70">
                     <Search /> 
@@ -94,35 +120,39 @@
                 </div>
                 Alphabetisch
             </button>
-        </li>
+        </div>
 
-        {#each filteredWords as word, index}
-        <li class="flex gap-4">
-            <div class="bg-white p-4 rounded w-48">
-                <h6 class="text-3xl text-sky-600 font-semibold">{word.title}</h6>
-                {#if index === expandedItemIndex}
-                    <p class="mt-2 text-sm text-slate-500">{word.language}</p>
-                {/if}
-            </div>
-            <div class="bg-white p-4 rounded w-full flex gap-4">
-                <button class="h-6 w-6 flex-shrink-0 text-sky-500" on:click={() => expandItem(index)}>
-                   {#if index === expandedItemIndex} 
-                        <ArrowDown/>
-                   {:else}
-                        <ArrowUp/>
-                   {/if} 
-                </button>
-                <div>
-                    <p class={`text-md text-slate-500 ${index === expandedItemIndex ? "line-clamp-none" : "line-clamp-1"}`}>
-                        {word.description}
-                    </p>
+        <ul class="flex flex-col gap-4 overflow-auto">
+            {#each filteredWords as word, index}
+            <li class="flex gap-4">
+                <div class="bg-white p-4 rounded w-48">
+                    <h6 class="text-3xl text-sky-600 font-semibold">{word.title}</h6>
+                    {#if index === expandedItemIndex}
+                        <p class="mt-2 text-sm text-slate-500">{word.language}</p>
+                    {/if}
                 </div>
-            </div>
-        </li>
-        {/each}
-    </ul>
+                <div class="bg-white p-4 rounded w-full flex gap-4">
+                    <button class="h-6 w-6 flex-shrink-0 text-sky-500" on:click={() => expandItem(index)}>
+                       {#if index === expandedItemIndex} 
+                            <ArrowDown/>
+                       {:else}
+                            <ArrowUp/>
+                       {/if} 
+                    </button>
+                    <div>
+                        <p class={`text-md text-slate-500 ${index === expandedItemIndex ? "line-clamp-none" : "line-clamp-1"}`}>
+                            {word.description}
+                        </p>
+                    </div>
+                </div>
+            </li>
+            {/each}
+        </ul>
+    </div>
+    <div class="absolute bottom-6 left-6 z-20 w-[100px]">
+        <img src={yuWireframe} alt="yu" class="h-44 w-full" />
+    </div>
 </div>
 
 <style>
-
 </style>

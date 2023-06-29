@@ -7,6 +7,8 @@
   import Navbar from "./components/Navbar.svelte";
   import ChapterSelect from "./components/ChapterSelect.svelte";
   import Glossary from "./components/Glossary.svelte";
+  import Achievements from "./components/Achievements.svelte";
+  import Footer from "./components/Footer.svelte";
 </script>
 
 <main class="h-screen w-screen relative">
@@ -21,10 +23,11 @@
       {#if $displayGlossary}
         <Glossary />
       {:else if $displayAchievements}
-        <div>Achievements</div>
+        <Achievements />
       {:else}
         <ChapterSelect />
       {/if}
+      <Footer />
     </div>
   {/if}
   <MainMenuBackground />
