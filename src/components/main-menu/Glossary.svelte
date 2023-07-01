@@ -1,6 +1,6 @@
 <script>
-    import ArrowUp from "svelte-icons/fa/FaAngleUp.svelte"
-    import ArrowDown from "svelte-icons/fa/FaAngleDown.svelte"
+    import ArrowUp from "svelte-icons/fa/FaCaretUp.svelte"
+    import ArrowDown from "svelte-icons/fa/FaCaretDown.svelte"
     import Search from "svelte-icons/fa/FaSearch.svelte"
     import yuWireframe from "src/assets/yu/wireframe.png"
 

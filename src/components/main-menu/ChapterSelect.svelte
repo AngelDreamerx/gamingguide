@@ -71,9 +71,11 @@
     
     const clickChapter = (index) => {
         // IMPORTANT //
-        chaptersProgress.update((value) => {
-            return {...value, [index]: 100 }
-        })
+        if(index > 0) {
+            chaptersProgress.update((value) => {
+                return {...value, [index]: 100 }
+            })
+        }
         push('/chapters/' + (index + 1))
     } 
 </script>
