@@ -75,7 +75,7 @@
     } 
 </script>
 
-<div class="mt-32 mx-auto w-[70%]"> 
+<div class="mt-28 mx-auto w-[70%]"> 
     <ul class="flex gap-16 items-center justify-center">
         {#each chapters as chapter (chapter.id)}
             <li class="w-fit" >
