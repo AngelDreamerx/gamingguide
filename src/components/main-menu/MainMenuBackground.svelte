@@ -8,14 +8,14 @@
 <style>
     .fg-image {
       width: 300%;
-      background-image: url('../assets/backgrounds/HG_75_Himmel-1_Boden.png');
+      background-image: url('src/assets/backgrounds/HG_75_Himmel-1_Boden.png');
       background-repeat: repeat-x;
       animation: bgSlideLeft 30s linear infinite;
     }
   
     .bg-image {
       width: 300%;
-      background-image: url('../assets/backgrounds/himmel-bg.png');
+      background-image: url('src/assets/backgrounds/himmel-bg.png');
       background-repeat: repeat-x;
       animation: bgSlideLeft 120s linear infinite;
     }

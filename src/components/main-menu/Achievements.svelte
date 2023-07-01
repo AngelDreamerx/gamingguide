@@ -1,12 +1,12 @@
 <script>
-    import card1 from "../assets/achievements/Achievements-01.png"
-    import card2 from "../assets/achievements/Achievements-02.png"
-    import card3 from "../assets/achievements/Achievements-03.png"
-    import card4 from "../assets/achievements/Achievements-04.png"
-    import backButton from '../assets/icons/zuruck.png'
-    import yuWireframe from "../assets/yu/wireframe.png"
+    import card1 from "src/assets/achievements/Achievements-01.png"
+    import card2 from "src/assets/achievements/Achievements-02.png"
+    import card3 from "src/assets/achievements/Achievements-03.png"
+    import card4 from "src/assets/achievements/Achievements-04.png"
+    import backButton from 'src/assets/icons/zuruck.png'
+    import yuWireframe from "src/assets/yu/wireframe.png"
     
-    import { chaptersProgress } from "../lib/stores"
+    import { chaptersProgress } from "src/lib/stores"
 
     let achievements = [
         {

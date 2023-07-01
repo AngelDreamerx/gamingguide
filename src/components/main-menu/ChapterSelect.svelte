@@ -1,16 +1,16 @@
 <script>
-    import yuWireframe from "../assets/yu/wireframe.png"
+    import yuWireframe from "src/assets/yu/wireframe.png"
 
-    import chapter1 from "../assets/backgrounds/HG_75-34.png"
-    import chapter2 from "../assets/backgrounds/HG_75-31.png"
-    import chapter3 from "../assets/backgrounds/HG_75-32.png"
-    import chapter4 from "../assets/backgrounds/HG_75-33.png"
+    import chapter1 from "src/assets/backgrounds/HG_75-34.png"
+    import chapter2 from "src/assets/backgrounds/HG_75-31.png"
+    import chapter3 from "src/assets/backgrounds/HG_75-32.png"
+    import chapter4 from "src/assets/backgrounds/HG_75-33.png"
 
-    import chapter2locked from "../assets/backgrounds/HG_75-35.png"
-    import chapter3locked from "../assets/backgrounds/HG_75-36.png"
-    import chapter4locked from "../assets/backgrounds/HG_75-37.png"
+    import chapter2locked from "src/assets/backgrounds/HG_75-35.png"
+    import chapter3locked from "src/assets/backgrounds/HG_75-36.png"
+    import chapter4locked from "src/assets/backgrounds/HG_75-37.png"
 
-    import { chaptersProgress } from "../lib/stores"
+    import { chaptersProgress } from "src/lib/stores"
 
     let chapters = [
         {

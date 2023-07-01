@@ -1,10 +1,10 @@
 <script>
-    import logo from '../assets/logo/GG_Logo_2.png'
-    import soundOn from '../assets/icons/ton_an.png'
-    import soundOff from '../assets/icons/stumm.png'
-    import backButton from '../assets/icons/zuruck.png'
+    import logo from 'src/assets/logo/GG_Logo_2.png'
+    import soundOn from 'src/assets/icons/ton_an.png'
+    import soundOff from 'src/assets/icons/stumm.png'
+    import backButton from 'src/assets/icons/zuruck.png'
 
-    import { sound, displayGlossary, displayAchievements } from '../lib/stores';
+    import { sound, displayGlossary, displayAchievements } from 'src/lib/stores';
     const toggleSound = () => {
         sound.update((value) => !value)
     }

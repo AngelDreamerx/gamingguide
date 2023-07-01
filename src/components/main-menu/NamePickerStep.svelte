@@ -1,6 +1,6 @@
 <script>
-    import { username } from "../lib/stores"
-    import yuWireframe from '../assets/yu/wireframe.png'
+    import { username } from "src/lib/stores"
+    import yuWireframe from 'src/assets/yu/wireframe.png'
 
     let lName = ""
 </script>

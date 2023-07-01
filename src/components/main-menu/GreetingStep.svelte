@@ -1,7 +1,7 @@
 <script>
-    import yuWireframe from '../assets/yu/wireframe.png'
+    import yuWireframe from 'src/assets/yu/wireframe.png'
 
-    import { greetingDone } from '../lib/stores';
+    import { greetingDone } from 'src/lib/stores';
 </script>
 
 <div class="z-40 flex flex-col mx-24 items-center pt-24 h-full relative">

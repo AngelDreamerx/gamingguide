@@ -2,7 +2,7 @@
     import ArrowUp from "svelte-icons/fa/FaAngleUp.svelte"
     import ArrowDown from "svelte-icons/fa/FaAngleDown.svelte"
     import Search from "svelte-icons/fa/FaSearch.svelte"
-    import yuWireframe from "../assets/yu/wireframe.png"
+    import yuWireframe from "src/assets/yu/wireframe.png"
 
     const words = [
         {
