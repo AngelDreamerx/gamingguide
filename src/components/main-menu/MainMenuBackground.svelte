@@ -1,3 +1,7 @@
+<script>
+  import sun from "src/assets/backgrounds/sky/HG_sky_Sonne.png"
+</script>
+
 <div class="absolute w-screen h-screen inset-0 z-20 overflow-hidden">
     <div class="z-10 fg-image h-screen bg-cover"/>
 </div>
@@ -5,7 +9,7 @@
     <div class="bg-image h-screen bg-cover"/>
 </div>
 <div class="absolute w-screen h-screen inset-0 z-0 overflow-hidden">
-    <img class="absolute bottom-20 w-full h-auto" src="src/assets/backgrounds/sky/HG_sky_Sonne.png" alt="Sun" />
+    <img class="absolute bottom-20 w-full" src={sun} alt="Sun" />
 </div>
 
 <style>
