@@ -131,20 +131,20 @@
                         <p class="mt-2 text-sm text-slate-500">{word.language}</p>
                     {/if}
                 </div>
-                <div class="bg-white p-4 rounded w-full flex gap-4">
-                    <button class="h-6 w-6 flex-shrink-0 text-sky-500" on:click={() => expandItem(index)}>
+                <button class="bg-white p-4 rounded w-full flex gap-4" on:click={() => expandItem(index)}>
+                    <div class="h-6 w-6 flex-shrink-0 text-sky-500">
                        {#if index === expandedItemIndex} 
                             <ArrowDown/>
                        {:else}
                             <ArrowUp/>
                        {/if} 
-                    </button>
+                    </div>
                     <div>
                         <p class={`text-md text-slate-500 ${index === expandedItemIndex ? "line-clamp-none" : "line-clamp-1"}`}>
                             {word.description}
                         </p>
                     </div>
-                </div>
+                </button>
             </li>
             {/each}
         </ul>
