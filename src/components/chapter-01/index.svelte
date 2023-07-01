@@ -1,6 +1,6 @@
 <script>
     import ChapterNavbar from "src/components/ChapterNavbar.svelte";
-    import MainMenuBackground from "src/components/main-menu/MainMenuBackground.svelte";
+    import Background from "./Background-01.svelte";
 
 </script>
 
@@ -9,4 +9,4 @@
 </div>
 
 <!-- TODO: change background -->
-<MainMenuBackground/>
+<Background/>
