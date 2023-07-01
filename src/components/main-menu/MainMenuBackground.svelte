@@ -5,7 +5,7 @@
     <div class="bg-image h-screen bg-cover"/>
 </div>
 <div class="absolute w-screen h-screen inset-0 z-0 overflow-hidden">
-    <img class="absolute bottom-20" src="src/assets/backgrounds/sky/HG_sky_Sonne.png" alt="Sun" />
+    <img class="absolute bottom-20 w-full h-auto" src="src/assets/backgrounds/sky/HG_sky_Sonne.png" alt="Sun" />
 </div>
 
 <style>
