@@ -12,6 +12,8 @@
 
     import { chaptersProgress } from "src/lib/stores"
 
+    import { push } from "svelte-spa-router"
+
     let chapters = [
         {
             id: 0, 
@@ -72,6 +74,7 @@
         chaptersProgress.update((value) => {
             return {...value, [index]: 100 }
         })
+        push('#/chapters/' + (index + 1))
     } 
 </script>
 
@@ -81,8 +84,12 @@
             <li class="w-fit" >
                 <button class="flex flex-col items-center gap-4 relative" on:click={() => {
                     if(!chapter.isUnlocked) { displayLockedHint = true }
-                    else { clickChapter(chapter.id) }
-                }} on:mouseenter={() => selectChapter(chapter.id)}>                
+                    else {
+                        displayLockedHint = false
+                        if (selectedChapter === chapter.id) { clickChapter(chapter.id) }
+                        else { selectChapter(chapter.id)}
+                    } 
+                }}>                
                     <span id="chapter-title" class:selected={selectedChapter === chapter.id}>{chapter.name}</span>
                     <img class:selected={selectedChapter === chapter.id}  src={chapter.isUnlocked ? chapter.image : chapter.lockImage} alt={chapter.name}/>
                     <span id="chapter-progress" class="text-white absolute bottom-4 text-lg font-semibold" class:selected={selectedChapter === chapter.id}>{chapter.progress}%</span>
