@@ -1,27 +1,40 @@
 <script>
     import yu from "src/assets/yu/wireframe.png"
     import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
-    import FullPicture from "src/components/basic-layout/FullPicture.svelte";
     import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
     import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
     import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
+    import PictureWithLabel from "src/components/basic-layout/PictureWithLabel.svelte";
 
+    export let image1;
+    export let image1Label;
+    export let image2;
+    export let image2Label;
+
+    export let textHeader;
 </script>
 
 <ContentFlexBox>
     <!-- LEFT -->
     <HalfTextbox>
         <!-- Header -->
-        <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
+        {#if textHeader}
+            <h4 class="text-3xl font-bold">{textHeader}</h4>
+        {/if}
 
         <ScrollingTextbox>
-            Mit dem Aufkommen der Heimkonsolen wie dem Atari 2600 in den 1970er und 1980er Jahren begann die Ära der Videospielrevolution. Plötzlich konnte man Spiele direkt von zuhause aus spielen und das Interesse an Videospielen verbreitete sich in der ganzen Welt.
+            <slot/>
         </ScrollingTextbox>
     </HalfTextbox>
 
     <!-- RIGHT -->
     <HalfPictureContainer>
-        <FullPicture imgSrc={yu} label="Test label" />
+        {#if image1}
+            <PictureWithLabel imgSrc={image1} label={image1Label} />
+        {/if}
+        {#if image2}
+            <PictureWithLabel imgSrc={image2} label={image2Label} />
+        {/if}
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->

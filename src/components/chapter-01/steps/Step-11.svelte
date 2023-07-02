@@ -12,16 +12,25 @@
     <!-- LEFT -->
     <HalfTextbox>
         <!-- Header -->
-        <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
+        <h4 class="text-3xl font-bold">Xbox</h4>
 
         <ScrollingTextbox>
-            Mit dem Aufkommen der Heimkonsolen wie dem Atari 2600 in den 1970er und 1980er Jahren begann die Ära der Videospielrevolution. Plötzlich konnte man Spiele direkt von zuhause aus spielen und das Interesse an Videospielen verbreitete sich in der ganzen Welt.
+            <b>Exklusive Spiele:</b>
+            Ähnlich wie bei der PlayStation bietet auch die Xbox exklusive Spiele, darunter Titel wie "Halo", "Forza" und "Gears of War".
+            <br/>
+            <br/>
+            <b>Leistung und Technologie:</b>
+            Die aktuelle Generation, die Xbox Series X/ S, bietet leistungsstarke Hardware und innovative Funktionen wie den Xbox Game Pass, der Zugriff auf eine große Bibliothek von Spielen ermöglicht.
+            <br/>
+            <br/>
+            <b>Online-Multiplayer:</b>
+            Der Xbox Live-Dienst ermöglicht es Spielern, online gegeneinander anzutreten und mit anderen zu kommunizieren.
         </ScrollingTextbox>
     </HalfTextbox>
 
     <!-- RIGHT -->
     <HalfPictureContainer>
-        <FullPicture imgSrc={yu} label="Test label" />
+        <FullPicture imgSrc={yu} label="Xbox Series X" />
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->

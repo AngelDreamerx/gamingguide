@@ -12,16 +12,25 @@
     <!-- LEFT -->
     <HalfTextbox>
         <!-- Header -->
-        <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
+        <h4 class="text-3xl font-bold">PlayStation</h4>
 
         <ScrollingTextbox>
-            Mit dem Aufkommen der Heimkonsolen wie dem Atari 2600 in den 1970er und 1980er Jahren begann die Ära der Videospielrevolution. Plötzlich konnte man Spiele direkt von zuhause aus spielen und das Interesse an Videospielen verbreitete sich in der ganzen Welt.
+            <b>Exklusive Spiele:</b>
+            Die PlayStation bietet eine Vielzahl exklusiver Spiele, die nur auf dieser Konsole erhältlich sind. Dazu gehören beliebte Titel wie "The Last of Us", "God of War" und "Uncharted".
+            <br/>
+            <br/>
+            <b>Starke Leistung:</b>
+            Die aktuelle Generation, die PlayStation 5 (PS5), verfügt über leistungsstarke Hardware, die beeindruckende Grafiken und flüssige Gameplay-Erlebnisse ermöglicht.
+            <br/>
+            <br/>
+            <b>Spielercommunity:</b>
+            Die PlayStation hat eine große und aktive Spielercommunity, mit der dein Kind online interagieren und gemeinsam spielen kann.
         </ScrollingTextbox>
     </HalfTextbox>
 
     <!-- RIGHT -->
     <HalfPictureContainer>
-        <FullPicture imgSrc={yu} label="Test label" />
+        <FullPicture imgSrc={yu} label="Playstation 5" />
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->
