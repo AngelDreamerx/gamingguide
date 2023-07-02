@@ -1,5 +1,5 @@
 <script>
-    import yuWireframe from 'src/assets/yu/wireframe.png'
+    import maskotWireframe from 'src/assets/maskot/walk/Maskottchen_laufen_4.gif'
 
     import { greetingDone } from 'src/lib/stores';
 </script>
@@ -13,7 +13,7 @@
         Verständnis der Faszination des Kindes nicht zu und kann zu
         Konflikten führen.</p>
     <div class="flex mt-auto justify-end w-[80%] mb-24 items-end mx-auto relative">
-      <img class="w-32 absolute left-[50%] translate-x-[-50%]" src={yuWireframe} alt="Yu" />
+      <img class="w-32 absolute left-[50%] translate-x-[-50%]" src={maskotWireframe} alt="maskot" />
       <button on:click={() => greetingDone.update(() => "done")} class="text-2xl font-bold rounded-3xl py-4 px-6 bg-white text-sky-700">weiter</button>
     </div>
 </div>

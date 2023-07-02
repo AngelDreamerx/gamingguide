@@ -1,5 +1,5 @@
 <script>
-    import yu from "src/assets/yu/wireframe.png"
+    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
     import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
     import FullPicture from "src/components/basic-layout/FullPicture.svelte";
     import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
@@ -30,9 +30,9 @@
 
     <!-- RIGHT -->
     <HalfPictureContainer>
-        <FullPicture imgSrc={yu} label="Xbox Series X" />
+        <FullPicture imgSrc={maskot} label="Xbox Series X" />
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->
-    <img src={yu} alt="yu" class="absolute -left-8 bottom-4 h-48" />
+    <img src={maskot} alt="maskot" class="absolute -left-8 bottom-4 h-48" />
 </ContentFlexBox>

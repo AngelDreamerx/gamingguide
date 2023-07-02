@@ -4,7 +4,7 @@
     import card3 from "src/assets/achievements/Achievements-03.png"
     import card4 from "src/assets/achievements/Achievements-04.png"
     import backButton from 'src/assets/icons/zuruck.png'
-    import yuWireframe from "src/assets/yu/wireframe.png"
+    import maskotWireframe from "src/assets/maskot/idle/Maskottchen_idle_4.gif"
     
     import { chaptersProgress } from "src/lib/stores"
 
@@ -159,6 +159,6 @@
         {/if}
     </div>
     <div class="absolute bottom-6 left-6 z-20 w-[100px]">
-        <img src={yuWireframe} alt="yu" class="h-44 w-full" />
+        <img src={maskotWireframe} alt="maskot" class="h-44 w-full" />
     </div>
 </div>

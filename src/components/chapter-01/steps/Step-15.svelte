@@ -1,6 +1,6 @@
 <script>
-    import yu from "src/assets/yu/wireframe.png"
-    import enemy from "src/assets/bosses/Boss_idle_1.gif"
+    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
+    import enemy from "src/assets/bosses/idle/Boss_idle_1.gif"
     import TextbubbleAndEnemy from "src/components/basic-layout/quiz/TextbubbleAndEnemy.svelte";
     import { username } from "src/lib/stores";
     import Questions from "src/components/basic-layout/quiz/Questions.svelte";
@@ -16,5 +16,5 @@
         Wähle die richtige Antwort aus.
     </h4>
     <Questions question="Was kam zeitlich am frühesten?" a="Gameboy" b="Playstation 1" c="NES" d="VR Gaming" answer="c" onAnswer={setIsCorrect}/>
-    <TextbubbleAndEnemy yuImgSrc={yu} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Du hast es fast geschafft, ${$username}!`}/>
+    <TextbubbleAndEnemy maskotImgSrc={maskot} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Du hast es fast geschafft, ${$username}!`}/>
 </div>

@@ -1,5 +1,5 @@
 <script>
-    import yu from "src/assets/yu/wireframe.png"
+    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
 </script>
 
 <div class="flex flex-col h-full justify-center items-center gap-8">
@@ -9,5 +9,5 @@
     <h2 class="text-2xl font-medium text-yellow-500">
         Lerne die Geschichte der Gamingwelt kennen
     </h2>
-    <img src={yu} alt="yu" class="mt-auto mb-8 h-64" />
+    <img src={maskot} alt="maskot" class="mt-auto mb-8 h-64" />
 </div>

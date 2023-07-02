@@ -2,7 +2,7 @@
     import ArrowUp from "svelte-icons/fa/FaCaretUp.svelte"
     import ArrowDown from "svelte-icons/fa/FaCaretDown.svelte"
     import Search from "svelte-icons/fa/FaSearch.svelte"
-    import yuWireframe from "src/assets/yu/wireframe.png"
+    import maskotWireframe from "src/assets/maskot/idle/Maskottchen_idle_4.gif"
 
     const words = [
         {
@@ -150,7 +150,7 @@
         </ul>
     </div>
     <div class="absolute bottom-6 left-6 z-20 w-[100px]">
-        <img src={yuWireframe} alt="yu" class="h-44 w-full" />
+        <img src={maskotWireframe} alt="maskot" class="h-44 w-full" />
     </div>
 </div>
 
