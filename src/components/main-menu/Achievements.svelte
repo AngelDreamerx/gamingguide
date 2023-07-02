@@ -158,7 +158,7 @@
             </div>
         {/if}
     </div>
-    <div class="absolute bottom-6 left-6 z-20 w-[100px]">
-        <img src={maskotWireframe} alt="maskot" class="h-44 w-full" />
+    <div class="absolute bottom-6 left-6 z-20">
+        <img src={maskotWireframe} alt="maskot" class="h-44" />
     </div>
 </div>

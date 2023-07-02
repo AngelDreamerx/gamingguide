@@ -38,5 +38,5 @@
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->
-    <img src={maskot} alt="maskot" class="absolute -left-8 bottom-4 h-48" />
+    <img src={maskot} alt="maskot" class="absolute -left-16 bottom-4 h-52" />
 </ContentFlexBox>

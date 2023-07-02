@@ -100,8 +100,8 @@
         {/each}
     </ul>
     <div class="mt-24 relative">
-        <div class="absolute -top-6 -left-6 z-20 w-[100px]">
-            <img src={maskotWireframe} alt="maskot" class="h-44 w-full" />
+        <div class="absolute -top-6 -left-6 z-20">
+            <img src={maskotWireframe} alt="maskot" class="h-44" />
         </div>
       
         <div class="ml-[52px] z-10 bg-white bg-opacity-75 w-[66%] h-32 py-8 pl-16 pr-8 rounded-xl flex items-center">

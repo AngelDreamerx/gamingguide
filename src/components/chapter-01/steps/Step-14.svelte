@@ -1,5 +1,5 @@
 <script>
-    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
+    import maskot from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_4.gif"
     import enemy from "src/assets/bosses/idle/Boss_idle_1.gif"
 </script>
 

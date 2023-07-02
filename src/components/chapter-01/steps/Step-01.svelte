@@ -9,5 +9,5 @@
     <h2 class="text-2xl font-medium text-yellow-500">
         Lerne die Geschichte der Gamingwelt kennen
     </h2>
-    <img src={maskot} alt="maskot" class="mt-auto mb-8 h-64" />
+    <img src={maskot} alt="maskot" class="mt-auto mb-8 h-72" />
 </div>
