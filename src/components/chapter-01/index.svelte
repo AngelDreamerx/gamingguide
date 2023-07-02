@@ -19,6 +19,8 @@
     import Step_12 from "./steps/Step-12.svelte";
     import Step_13 from "./steps/Step-13.svelte";
     import Step_14 from "./steps/Step-14.svelte";
+    import Step_15 from "./steps/Step-15.svelte";
+    import Step_16 from "./steps/Step-16.svelte";
 
 
     let steps = [
@@ -92,6 +94,16 @@
             id: 13,
             component: Step_14,
             title: ""
+        },
+        {
+            id: 14,
+            component: Step_15,
+            title: "Abfrage"
+        },
+        {
+            id: 15,
+            component: Step_16,
+            title: "Abfrage"
         }
     ]
 

@@ -9,7 +9,7 @@
     export let titleColorClasses
 </script>
 
-<div class="absolute top-0 flex w-full items-center justify-between pr-16 py-4">
+<div class="absolute top-0 flex w-full items-center justify-between pr-16">
     <button on:click={() => push("/")}>
         {#if displayBack}
             <img src={backButton} alt="back" class="h-16" />
