@@ -12,6 +12,6 @@
     </h2>
     <div class="flex items-end gap-48 mt-auto mb-8">
         <img src={maskot} alt="maskot" class="h-64" />
-        <img src={enemy} alt="enemy" class="h-80" />
+        <img src={enemy} alt="enemy" class="h-64" />
     </div>
 </div>
