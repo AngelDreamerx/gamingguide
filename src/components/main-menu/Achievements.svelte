@@ -114,6 +114,21 @@
     }
     
     import { fade } from "svelte/transition"
+
+    function getAchievementColor(chapter) {
+        switch(chapter) {
+            case 0: 
+                return "first-achievement-color"
+            case 1: 
+                return "second-achievement-color"
+            case 2: 
+                return "third-achievement-color"
+            case 3: 
+                return "fourth-achievement-color"
+            default: 
+                return "first-achievement-color"
+        }
+    }
 </script>
 
 
@@ -138,7 +153,7 @@
                         <img class="w-10" src={backButton} alt="back" />
                     </button>
                 </div>
-                <div class="p-4 bg-yellow-50 border-orange-200 border-8 rounded-3xl mr-auto basis-6/12 min-h-0 overflow-auto">
+                <div class={`p-4 ${getAchievementColor(selectedChapter)} border-8 rounded-3xl mr-auto basis-6/12 min-h-0 overflow-auto`}>
                     <h6 class="text-md font-bold text-slate-600 mb-4">
                         {achievements[selectedChapter].cards[openedCard].title}
                     </h6>
@@ -164,3 +179,18 @@
         <img src={maskotWireframe} alt="maskot" class="h-44" />
     </div>
 </div>
+
+<style>
+    .first-achievement-color {
+        @apply bg-yellow-50 border-orange-300;
+    }
+    .second-achievement-color {
+        @apply bg-emerald-50 border-slate-400;
+    }
+    .third-achievement-color {
+        @apply bg-red-50 border-red-300;
+    }
+    .fourth-achievement-color {
+        @apply bg-purple-50 border-slate-400;
+    }
+</style>
