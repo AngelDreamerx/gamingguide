@@ -2,9 +2,10 @@
     import maskotWireframe from 'src/assets/maskot/walk/Maskottchen_laufen_4.gif'
 
     import { greetingDone } from 'src/lib/stores';
+    import { fade } from 'svelte/transition';
 </script>
 
-<div class="z-40 flex flex-col mx-24 items-center pt-24 h-full relative">
+<div in:fade={{duration: 500}} class="z-40 flex flex-col mx-24 items-center pt-24 h-full relative">
     <p class="text-xl text-sky-600 mb-4 w-[70%] text-center">Heutzutage spielen etwa 89% aller Kinder und Jugendliche
         regelmäßig Videospiele. Daher ist die Wahrscheinlichkeit
         hoch, das du dich als Elternteil oder Pädagoge in der

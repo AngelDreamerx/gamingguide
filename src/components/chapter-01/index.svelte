@@ -143,9 +143,11 @@
             push("/") 
         }
     }
+    
+    import { fade } from "svelte/transition"
 </script>
 
-<div class="z-40 flex flex-col h-full relative">
+<div in:fade={{duration: 500}} class="z-40 flex flex-col h-full relative">
     <!-- displays logo and title in top left and top right corner  -->
     <ChapterNavbar title={steps[currentStep].title} titleColorClasses="text-yellow-500" onBack={null} displayBack={false} />
     

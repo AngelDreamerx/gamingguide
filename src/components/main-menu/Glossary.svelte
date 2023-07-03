@@ -3,6 +3,7 @@
     import ArrowDown from "svelte-icons/fa/FaCaretDown.svelte"
     import Search from "svelte-icons/fa/FaSearch.svelte"
     import maskotWireframe from "src/assets/maskot/idle/Maskottchen_idle_4.gif"
+    import { fade } from 'svelte/transition';
 
     const words = [
         {
@@ -93,7 +94,7 @@
     }
 </script>
 
-<div class="mx-auto w-[70%] min-h-0 overflow-hidden">
+<div in:fade={{duration: 500}} class="mx-auto w-[70%] min-h-0 overflow-hidden">
     <div class="flex flex-col gap-4 h-full">
         <div class="flex gap-4">
             <div class="relative">

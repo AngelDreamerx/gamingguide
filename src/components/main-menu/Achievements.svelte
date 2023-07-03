@@ -112,10 +112,12 @@
         selectedChapter = index
         closeCard()
     }
+    
+    import { fade } from "svelte/transition"
 </script>
 
 
-<div class="mx-auto w-[70%] flex items-stretch flex-grow mb-32 min-h-0 overflow-hidden">
+<div in:fade={{duration: 500}} class="mx-auto w-[70%] flex items-stretch flex-grow mb-32 min-h-0 overflow-hidden">
     <ul class="flex flex-col gap-4">
         {#each achievements as chapter, index (chapter.id)}
         <li class="flex items-center">

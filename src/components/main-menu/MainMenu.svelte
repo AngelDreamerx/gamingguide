@@ -9,6 +9,7 @@
   import Glossary from "./Glossary.svelte";
   import Achievements from "./Achievements.svelte";
   import Footer from "./Footer.svelte";
+  import { fade, } from "svelte/transition";
 </script>
 
 {#if !$username} 
@@ -16,7 +17,7 @@
 {:else if !$greetingDone} 
   <GreetingStep />
 {:else} 
-  <div class="z-40 flex flex-col h-full relative">
+  <div in:fade={{duration: 500}} class="z-40 flex flex-col h-full relative">
     <Navbar />
     {#if $displayGlossary}
       <Glossary />
