@@ -21,8 +21,8 @@
     import Step_14 from "./steps/Step-14.svelte";
     import Step_15 from "./steps/Step-15.svelte";
     import Step_16 from "./steps/Step-16.svelte";
-  import Step_17 from "./steps/Step-17.svelte";
-  import Step_18 from "./steps/Step-18.svelte";
+    import Step_17 from "./steps/Step-17.svelte";
+    import Step_18 from "./steps/Step-18.svelte";
 
 
     let steps = [
