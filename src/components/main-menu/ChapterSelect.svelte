@@ -6,9 +6,9 @@
     import chapter3 from "src/assets/backgrounds/HG_75-32.png"
     import chapter4 from "src/assets/backgrounds/HG_75-33.png"
 
-    import chapter2locked from "src/assets/backgrounds/HG_75-35.png"
-    import chapter3locked from "src/assets/backgrounds/HG_75-36.png"
-    import chapter4locked from "src/assets/backgrounds/HG_75-37.png"
+    import chapter2locked from "src/assets/backgrounds/HG_75-38.png"
+    import chapter3locked from "src/assets/backgrounds/HG_75-35.png"
+    import chapter4locked from "src/assets/backgrounds/HG_75-36.png"
 
     import { chaptersProgress } from "src/lib/stores"
 
