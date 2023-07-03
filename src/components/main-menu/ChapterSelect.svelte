@@ -94,7 +94,7 @@
                 }}>                
                     <span id="chapter-title" class:selected={selectedChapter === chapter.id}>{chapter.name}</span>
                     <img class:selected={selectedChapter === chapter.id}  src={chapter.isUnlocked ? chapter.image : chapter.lockImage} alt={chapter.name}/>
-                    <span id="chapter-progress" class="text-white absolute bottom-4 text-lg font-semibold" class:selected={selectedChapter === chapter.id}>{chapter.progress}%</span>
+                    <span id="chapter-progress" class="text-white absolute bottom-4 text-lg font-semibold" class:selected={selectedChapter === chapter.id}>{chapter.progress.toFixed(0)}%</span>
                 </button>
             </li>
         {/each}
