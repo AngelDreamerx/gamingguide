@@ -121,11 +121,14 @@
 
     let currentStep = 0
 
+    // TODO: when copying to other chapters change CHAPTER_NUMBER
+    // 0 is first, 1 is second, 2 is third, ...
     function calculateProgress(newCurrentStep) {
+        const CHAPTER_NUMBER = 0
         const newProgress = (100 / steps.length) * newCurrentStep
             chaptersProgress.update((value) => {
-                if (value[0] === undefined || value[0] < newProgress) { 
-                    return {...value, [0]: newProgress } 
+                if (value[CHAPTER_NUMBER] === undefined || value[CHAPTER_NUMBER] < newProgress) { 
+                    return {...value, [CHAPTER_NUMBER]: newProgress } 
                 }
                 return {...value}
             })
