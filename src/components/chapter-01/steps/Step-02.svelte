@@ -6,6 +6,7 @@
     import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
     import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
 
+
 </script>
 
 <ContentFlexBox>
@@ -21,7 +22,7 @@
 
     <!-- RIGHT -->
     <HalfPictureContainer>
-        <FullPicture imgSrc={maskot} label="Test label" />
+        <FullPicture imgSrc={maskot} label="" />
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->
