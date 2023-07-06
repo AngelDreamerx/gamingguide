@@ -26,7 +26,7 @@
     import Step_19 from "./steps/Step-19.svelte";
     import Step_20 from "./steps/Step-20.svelte";
     import Step_21 from "./steps/Step-21.svelte";
-
+    import Step_22 from "./steps/Step-22.svelte";
 
     let steps = [
         {
@@ -135,6 +135,11 @@
             component: Step_21,
             title: ""
         },
+        {
+            id: 21,
+            component: Step_22,
+            title: ""
+        }
     ]
 
     let currentStep = 0

@@ -38,13 +38,13 @@
         }}>
             Achievements
         </button>
-        <button class="text-sky-600 font-semibold text-md" on:click={() => {
+        /*<button class="text-sky-600 font-semibold text-md" on:click={() => {
             displayImpressum.set(true)
             displayGlossary.set(false)
             displayAchievements.set(false)
         }}>
             Impressum
-        </button>
+        </button>*/
         <div class="flex space-x-8">
             <button on:click={toggleSound}>
                 <img class="h-8 w-8" src={$sound ? soundOn : soundOff} alt="sound">

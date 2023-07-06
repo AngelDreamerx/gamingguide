@@ -1,39 +1,20 @@
 <script>
-    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
-    import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
-    import FullPicture from "src/components/basic-layout/FullPicture.svelte";
-    import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
-    import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
-    import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
-    import picture from "src/assets/pictures/playstation.png";
-
+    import maskot from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_4.gif"
+    import enemy from "src/assets/bosses/defeated/Boss_tot_1.gif"
+    import { username } from "src/lib/stores";
 </script>
 
-<ContentFlexBox>
-    <!-- LEFT -->
-    <HalfTextbox>
-        <!-- Header -->
-        <h4 class="text-3xl font-bold">PlayStation</h4>
-
-        <ScrollingTextbox>
-            <b>Exklusive Spiele:</b>
-            Die PlayStation bietet eine Vielzahl exklusiver Spiele, die nur auf dieser Konsole erhältlich sind. Dazu gehören beliebte Titel wie "The Last of Us", "God of War" und "Uncharted".
-            <br/>
-            <br/>
-            <b>Starke Leistung:</b>
-            Die aktuelle Generation, die PlayStation 5 (PS5), verfügt über leistungsstarke Hardware, die beeindruckende Grafiken und flüssige Gameplay-Erlebnisse ermöglicht.
-            <br/>
-            <br/>
-            <b>Spielercommunity:</b>
-            Die PlayStation hat eine große und aktive Spielercommunity, mit der dein Kind online interagieren und gemeinsam spielen kann.
-        </ScrollingTextbox>
-    </HalfTextbox>
-
-    <!-- RIGHT -->
-    <HalfPictureContainer>
-        <FullPicture imgSrc={picture} label="Playstation 5" />
-    </HalfPictureContainer>
-
-    <!-- BOTTOM-LEFT-CORNER -->
-    <img src={maskot} alt="maskot" class="absolute -left-16 bottom-4 h-52" />
-</ContentFlexBox>
+<div class="flex flex-col h-full justify-end items-center pb-8">
+    <div class="w-full flex justify-between items-end relative mb-12 pt-24">
+       <img src={maskot} alt="maskot" class="absolute z-50 bottom-0 -left-20 h-52"/>
+       <div class="mb-8 z-40 bg-white opacity-75 w-2/3 p-8 pl-32 rounded-xl flex items-center ml-4">
+            <!-- <p class="h-full text-slate-600 text-lg overflow-auto"> -->
+            <p class="h-full text-slate-600 text-lg">
+                Sehr gut, {$username}, du hast das Ungeheuer besiegt! 
+                <br/>
+                Du bist ein Überflieger!
+            </p>
+       </div> 
+       <img src={enemy} alt="enemy" class="h-64 absolute -right-16 bottom-0"/>
+    </div>
+</div>

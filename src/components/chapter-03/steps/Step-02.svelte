@@ -1,30 +1,22 @@
-<script>
-    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
-    import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
-    import FullPicture from "src/components/basic-layout/FullPicture.svelte";
-    import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
-    import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
-    import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
-    import Picture1 from"src/assets/pictures/picture_1.png";
 
+<script>
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
+    import Picture2 from "src/assets/pictures/picture 15.jpeg"
 </script>
 
-<ContentFlexBox>
-    <!-- LEFT -->
-    <HalfTextbox>
-        <!-- Header -->
-        <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
-
-        <ScrollingTextbox>
-            Mit dem Aufkommen der Heimkonsolen wie dem Atari 2600 in den 1970er und 1980er Jahren begann die Ära der Videospielrevolution. Plötzlich konnte man Spiele direkt von zuhause aus spielen und das Interesse an Videospielen verbreitete sich in der ganzen Welt.
-        </ScrollingTextbox>
-    </HalfTextbox>
-
-    <!-- RIGHT -->
-    <HalfPictureContainer>
-        <FullPicture imgSrc={Picture1} label="" />
-    </HalfPictureContainer>
-
-    <!-- BOTTOM-LEFT-CORNER -->
-    <img src={maskot} alt="maskot" class="absolute -left-16 bottom-4 h-52" />
-</ContentFlexBox>
+<!-- Inside is the text content -->
+<TextboxAndPicturesLayout textHeader="Kompetenz Erwerb bei Games" image1={Picture2} image1Label="" image2={null} image2Label="">
+               Beim Spielen von Videospielen können
+Kinder und Jugendliche eine Vielzahl
+von Kompetenzen entwickeln und
+erwerben. Gaming bietet nicht nur
+Unterhaltung, sondern kann auch
+positive Auswirkungen auf
+verschiedene Bereiche der
+persönlichen Entwicklung haben. 
+    <br/>     
+    <br/>     
+    In diesem Kapitel zeigen wir dir einige
+Kompetenzen, die dein Kind beim
+Gaming erlernen kann.
+</TextboxAndPicturesLayout>

@@ -1,12 +1,15 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import test from "src/assets/backgrounds/cave/HG_cave_Hintergrund.png"
+    import picture from "src/assets/pictures/picture 12.jpg";
+
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout2.svelte";
 </script>
 
 <!-- Inside is the text content -->
-<TextboxAndPicturesLayout textHeader="" image1={test} image1Label="" image2={null} image2Label="">
-    In den folgenden Jahrzehnten erlebte die Gaming-Branche einen enormen Fortschritt. Neue Konsolen wie Nintendo Entertainment System (NES), Sega Genesis und PlayStation eroberten die Wohnzimmer.
+<TextboxAndPicturesLayout textHeader="" image1={picture} image1Label="" image2={null} image2Label="">
+    Online Games hingegen erfordern eine Internetverbindung, da du mit anderen Spielern aus der ganzen Welt interagieren kannst.
     <br/>     
     <br/>     
-    Die Grafik und Spielwelten wurden immer realistischer und immersive Erfahrungen wurden möglich. Mit dem Aufkommen von PCs wurden auch Computer- und Online-Spiele immer beliebter.
+    Diese Spiele finden in einer virtuellen Umgebung statt, in der du dich mit anderen Spielern messen, kooperieren oder gegen sie antreten kannst. 
+    <br><br>
+    Online Games bieten oft eine breite Palette an Multiplayer-Modi, bei denen du in Echtzeit gegen andere Spieler spielst. Das bedeutet, dass das Spielgeschehen fortlaufend ist und nicht pausiert werden kann.
 </TextboxAndPicturesLayout>

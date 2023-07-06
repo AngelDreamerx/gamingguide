@@ -1,11 +1,12 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout2.svelte";
+    import test from "src/assets/pictures/picture 14.jpg"
 </script>
 
-<TextboxAndPicturesLayout textHeader="Levels und Progression" image1={test} image1Label="Gaming Convention" image2={null} image2Label="">
-    Die Gaming-Branche hat in den letzten Jahren einen unglaublichen Einfluss auf die Kultur und die Gesellschaft ausgeübt. Sie hat nicht nur die Art und Weise verändert, wie wir spielen, sondern auch wie wir kommunizieren, lernen und uns unterhalten.
+<TextboxAndPicturesLayout textHeader="Speicherstände" image1={test} image1Label="" image2={null} image2Label="">
+    Eine weitere wichtige Mechanik in Videospielen ist die Speichermöglichkeit. In vielen Spielen ist es möglich, den Spielstand zu speichern und zu laden, um jederzeit dort weiterzuspielen, wo man aufgehört hat.
     <br/>     
     <br/>     
-    Es wäre nicht übertrieben zu sagen, dass sie zu einem der wichtigsten Wirtschaftszweige weltweit geworden ist.
+    Das Speichern kann entweder manuell durch den Spieler oder automatisch durch das Spiel erfolgen. Je nach Spiel gibt es unterschiedliche Speicherpunkte oder Speicheroptionen. Einige Spiele erlauben es auch, mehrere Spielstände anzulegen, um verschiedene Spielverläufe auszuprobieren oder zurückzukehren, falls man eine falsche Entscheidung getroffen hat.
+
 </TextboxAndPicturesLayout>

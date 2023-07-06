@@ -16,13 +16,7 @@
     import Step_09 from "./steps/Step-09.svelte";
     import Step_10 from "./steps/Step-10.svelte";
     import Step_11 from "./steps/Step-11.svelte";
-    import Step_12 from "./steps/Step-12.svelte";
-    import Step_13 from "./steps/Step-13.svelte";
-    import Step_14 from "./steps/Step-14.svelte";
-    import Step_15 from "./steps/Step-15.svelte";
-    import Step_16 from "./steps/Step-16.svelte";
-    import Step_17 from "./steps/Step-17.svelte";
-    import Step_18 from "./steps/Step-18.svelte";
+
 
 
     let steps = [
@@ -34,89 +28,53 @@
         {
             id: 1,
             component: Step_02,
-            title: "Die Geschichte des Gamings"
+            title: "Das Ziel in Sicht!"
         },
         {
             id: 2,
             component: Step_03,
-            title: "Die Geschichte des Gamings"
+            title: "Das Ziel in Sicht!"
         },
         {
             id: 3,
             component: Step_04,
-            title: "Die Geschichte des Gamings"
+            title: "Das Ziel in Sicht!"
         },
         {
             id: 4,
             component: Step_05,
-            title: "Die Gaming Branche"
+            title: "Das Ziel in Sicht!"
         },
         {
             id: 5,
             component: Step_06,
-            title: "Die Gaming Branche"
+            title: "Das Ziel in Sicht!"
         },
         {
             id: 6,
             component: Step_07,
-            title: "Die Gaming Branche"
+            title: ""
         },
         {
             id: 7,
             component: Step_08,
-            title: "Die Gaming Branche"
+            title: "Quiz"
         },
         {
             id: 8,
             component: Step_09,
-            title: "Die Auswahl der Konsole"
+            title: "Quiz"
         },
         {
             id: 9,
             component: Step_10,
-            title: "Die Auswahl der Konsole"
+            title: "Quiz"
         },
         {
             id: 10,
             component: Step_11,
-            title: "Die Auswahl der Konsole"
-        },
-        {
-            id: 11,
-            component: Step_12,
-            title: "Die Auswahl der Konsole"
-        },
-        {
-            id: 12,
-            component: Step_13,
-            title: "Die Auswahl der Konsole"
-        },
-        // AB HIER QUIZ
-        {
-            id: 13,
-            component: Step_14,
             title: ""
         },
-        {
-            id: 14,
-            component: Step_15,
-            title: "Abfrage"
-        },
-        {
-            id: 15,
-            component: Step_16,
-            title: "Abfrage"
-        },
-        {
-            id: 16,
-            component: Step_17,
-            title: ""
-        },
-        {
-            id: 17,
-            component: Step_18,
-            title: ""
-        }
     ]
 
     let currentStep = 0
@@ -152,12 +110,12 @@
 
 <div in:fade={{duration: 500}} class="z-40 flex flex-col h-full relative">
     <!-- displays logo and title in top left and top right corner  -->
-    <ChapterNavbar title={steps[currentStep].title} titleColorClasses="text-emerald-500" onBack={null} displayBack={false} />
+    <ChapterNavbar title={steps[currentStep].title} titleColorClasses="text-purple-500" onBack={null} displayBack={false} />
     
     <!-- 3-part "grid" left and right button with content in the middle -->
     <div class="flex h-full items-center justify-center gap-8">
         <!-- Hide previous button for first step (can't go back) -->
-        <PreviousButton hide={currentStep <= 0} clickFn={previousStep} colorClasses="text-emerald-500"/>
+        <PreviousButton hide={currentStep <= 0} clickFn={previousStep} colorClasses="text-purple-500"/>
 
         <!-- Main content -->
         <div class="basis-10/12 h-full pt-32">
@@ -165,7 +123,7 @@
         </div>
 
         <!-- Next button is always present (will go back to main menu on last step) -->
-        <NextButton clickFn={nextStep} colorClasses="text-emerald-500"/>
+        <NextButton clickFn={nextStep} colorClasses="text-purple-500"/>
     </div>
 </div>
 

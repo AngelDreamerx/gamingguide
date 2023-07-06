@@ -1,7 +1,8 @@
 <script>
     import picture from "src/assets/pictures/picture 10.jpg";
+    import maskot from "src/assets/maskot/idle/Maskottchen_idle_2.gif"
 
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout2.svelte";
     import test from "src/assets/backgrounds/cave/HG_cave_Hintergrund.png"
 </script>
 

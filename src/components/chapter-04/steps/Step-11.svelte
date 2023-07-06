@@ -1,39 +1,31 @@
 <script>
-    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
-    import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
-    import FullPicture from "src/components/basic-layout/FullPicture.svelte";
-    import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
-    import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
-    import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
-    import picture from "src/assets/pictures/xbox.png";
-
+    import maskot from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_4.gif"
+    import achievement from "src/assets/achievements/Achievements-01.png"
 </script>
 
-<ContentFlexBox>
-    <!-- LEFT -->
-    <HalfTextbox>
-        <!-- Header -->
-        <h4 class="text-3xl font-bold">Xbox</h4>
+<div class="flex flex-col h-full justify-end items-center pb-8">
 
-        <ScrollingTextbox>
-            <b>Exklusive Spiele:</b>
-            Ähnlich wie bei der PlayStation bietet auch die Xbox exklusive Spiele, darunter Titel wie "Halo", "Forza" und "Gears of War".
-            <br/>
-            <br/>
-            <b>Leistung und Technologie:</b>
-            Die aktuelle Generation, die Xbox Series X/ S, bietet leistungsstarke Hardware und innovative Funktionen wie den Xbox Game Pass, der Zugriff auf eine große Bibliothek von Spielen ermöglicht.
-            <br/>
-            <br/>
-            <b>Online-Multiplayer:</b>
-            Der Xbox Live-Dienst ermöglicht es Spielern, online gegeneinander anzutreten und mit anderen zu kommunizieren.
-        </ScrollingTextbox>
-    </HalfTextbox>
+    <div class="relative h-full w-full">
+        <img src={achievement} alt="achievement" class="h-48 image-basics rotate-[20deg] z-70 left-[49%] translate-y-4" />
+        <img src={achievement} alt="achievement" class="h-48 image-basics -rotate-[20deg] z-70 right-[49%] translate-y-4" />
+        <img src={achievement} alt="achievement" class="h-60 image-basics z-80 left-[50%] -translate-x-[50%]" />
+    </div>
 
-    <!-- RIGHT -->
-    <HalfPictureContainer>
-        <FullPicture imgSrc={picture} label="Xbox Series X" />
-    </HalfPictureContainer>
+    <div class="w-full flex justify-between items-end relative mb-12 pt-24">
+       <img src={maskot} alt="maskot" class="absolute z-50 bottom-0 -left-20 h-52"/>
+       <div class="mb-8 z-40 bg-white opacity-75 w-3/4 p-8 pl-32 rounded-xl flex items-center ml-4">
+            <!-- <p class="h-full text-slate-600 text-lg overflow-auto"> -->
+            <p class="h-full text-slate-600 text-lg">
+                Du hast drei Achievements erhalten!
+                <br/>
+                Du kannst dir dieses Kapitel jetzt im Hauptmenü als Zusammenfassung ansehen!
+            </p>
+       </div> 
+    </div>
+</div>
 
-    <!-- BOTTOM-LEFT-CORNER -->
-    <img src={maskot} alt="maskot" class="absolute -left-16 bottom-4 h-52" />
-</ContentFlexBox>
+<style>
+    .image-basics {
+        @apply absolute top-24;
+    }
+</style>

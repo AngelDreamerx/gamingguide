@@ -1,19 +1,12 @@
 <script>
-    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
-    import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
-    import FullPicture from "src/components/basic-layout/FullPicture.svelte";
-
-    import Zeitstrahl from "src/assets/pictures/Kapitel_1_22.png";
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
+    import Picture2 from "src/assets/pictures/picture_2.jpg"
 </script>
 
-<ContentFlexBox>
-    <!-- FULL BOX WITH SEMI TRANSPARENT BACKGROUND -->
-    <div class="h-full w-full overflow-hidden min-h-0 rounded-2xl bg-white bg-opacity-60 p-8 flex flex-col gap-8">
-        <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
-
-        <FullPicture imgSrc={Zeitstrahl} label=""/>
-    </div>
-
-    <!-- BOTTOM-LEFT-CORNER -->
-    <img src={maskot} alt="maskot" class="absolute -left-16 bottom-4 h-52" />
-</ContentFlexBox>
+<!-- Inside is the text content -->
+<TextboxAndPicturesLayout textHeader="Sensomotorische Fähigkeiten" image1={Picture2} image1Label="" image2={null} image2Label="">
+    In den folgenden Jahrzehnten erlebte die Gaming-Branche einen enormen Fortschritt. Neue Konsolen wie Nintendo Entertainment System (NES), Sega Genesis und PlayStation eroberten die Wohnzimmer.
+    <br/>     
+    <br/>     
+    Die Grafik und Spielwelten wurden immer realistischer und immersive Erfahrungen wurden möglich. Mit dem Aufkommen von PCs wurden auch Computer- und Online-Spiele immer beliebter.
+</TextboxAndPicturesLayout>

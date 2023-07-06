@@ -1,14 +1,17 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import picture from "src/assets/pictures/picture 5.jpg";
+    import maskot from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_4.gif"
+    import enemy from "src/assets/bosses/idle/Boss_idle_1.gif"
 </script>
 
-<TextboxAndPicturesLayout textHeader="" image1={picture} image1Label="VR Gaming" image2={null} image2Label="">
-    Ein weiterer wichtiger Faktor für den Einfluss der Gaming-Branche ist die Möglichkeit, online mit anderen Spielern aus der ganzen Welt zu interagieren.
-    <br/>
-    <br/>
-    Online-Gaming-Plattformen wie Steam, Xbox Live und PlayStation Network ermöglichen es Spielern, mit Freunden und Fremden in Echtzeit zu spielen, zu chatten und zu kommunizieren.
-    <br/>
-    <br/>
-    Das hat die Art und Weise verändert, wie Menschen Freizeitaktivitäten gestalten und miteinander interagieren.
-</TextboxAndPicturesLayout>
+<div class="flex flex-col h-full justify-center items-center gap-8">
+    <h1 class="text-6xl font-bold text-yellow-500 text-center">
+        Ein Gegner ist eingetroffen
+    </h1>
+    <h2 class="text-2xl font-medium text-yellow-500">
+        Teste dein Wissen
+    </h2>
+    <div class="flex items-end gap-48 mt-auto mb-8">
+        <img src={maskot} alt="maskot" class="h-64" />
+        <img src={enemy} alt="enemy" class="h-64" />
+    </div>
+</div>
