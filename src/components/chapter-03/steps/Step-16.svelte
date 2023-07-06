@@ -15,3 +15,6 @@
         <img src={enemy} alt="enemy" class="h-80" />
     </div>
 </div>
+
+<style>
+</style>
