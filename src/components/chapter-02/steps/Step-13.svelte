@@ -1,21 +1,12 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import test from "src/assets/backgrounds/cave/HG_cave_Hintergrund.png"
+    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
 </script>
 
-<TextboxAndPicturesLayout textHeader="Gaming am PC" image1={test} image1Label="" image2={test} image2Label="">
-    <b>Leistung und Anpassungsfähigkeiten:</b>
-    Der PC ermöglicht es, die Hardware individuell anzupassen und aufzurüsten, um eine optimale Leistung zu erzielen. Daher ist kein Neukauf nötig. Grafisch anspruchsvolle Spiele liefern auf einem gut ausgestatteten Gaming-PC beeindruckende Ergebnisse.
-    <br/>
-    <br/>
-    <b>Große Spielevielfalt:</b>
-    Der PC hat eine riesige Auswahl an Spielen, darunter viele Indie-Spiele und Klassiker.
-    <br/>
-    <br/>
-    <b>Modding-Community:</b>
-    Die PC-Gaming-Community ist bekannt für ihre kreative Modding-Szene, bei der Spieler ihre Spiele anpassen und neue Inhalte erstellen können.
-    <br/>
-    <br/>
-    <b>Technisches Know-how:</b>
-    Im Gegensatz zu Konsolen erfordert der PC etwas mehr technisches Verständnis, um Hardware-Kompatibilität und Software-Optimierung sicherzustellen.
+<TextboxAndPicturesLayout textHeader="Charakterentwicklung
+und Anpassung" image1={test} image1Label="Gaming Convention" image2={null} image2Label="">
+    Die Gaming-Branche hat in den letzten Jahren einen unglaublichen Einfluss auf die Kultur und die Gesellschaft ausgeübt. Sie hat nicht nur die Art und Weise verändert, wie wir spielen, sondern auch wie wir kommunizieren, lernen und uns unterhalten.
+    <br/>     
+    <br/>     
+    Es wäre nicht übertrieben zu sagen, dass sie zu einem der wichtigsten Wirtschaftszweige weltweit geworden ist.
 </TextboxAndPicturesLayout>

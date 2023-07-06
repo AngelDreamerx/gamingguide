@@ -1,38 +1,11 @@
 <script>
-    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
-    import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
-    import FullPicture from "src/components/basic-layout/FullPicture.svelte";
-    import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
-    import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
-    import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
-
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
+    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
 </script>
 
-<ContentFlexBox>
-    <!-- LEFT -->
-    <HalfTextbox>
-        <!-- Header -->
-        <h4 class="text-3xl font-bold">PlayStation</h4>
-
-        <ScrollingTextbox>
-            <b>Exklusive Spiele:</b>
-            Die PlayStation bietet eine Vielzahl exklusiver Spiele, die nur auf dieser Konsole erhältlich sind. Dazu gehören beliebte Titel wie "The Last of Us", "God of War" und "Uncharted".
-            <br/>
-            <br/>
-            <b>Starke Leistung:</b>
-            Die aktuelle Generation, die PlayStation 5 (PS5), verfügt über leistungsstarke Hardware, die beeindruckende Grafiken und flüssige Gameplay-Erlebnisse ermöglicht.
-            <br/>
-            <br/>
-            <b>Spielercommunity:</b>
-            Die PlayStation hat eine große und aktive Spielercommunity, mit der dein Kind online interagieren und gemeinsam spielen kann.
-        </ScrollingTextbox>
-    </HalfTextbox>
-
-    <!-- RIGHT -->
-    <HalfPictureContainer>
-        <FullPicture imgSrc={maskot} label="Playstation 5" />
-    </HalfPictureContainer>
-
-    <!-- BOTTOM-LEFT-CORNER -->
-    <img src={maskot} alt="maskot" class="absolute -left-16 bottom-4 h-52" />
-</ContentFlexBox>
+<TextboxAndPicturesLayout textHeader="Game-Mechaniken" image1={test} image1Label="Gaming Convention" image2={null} image2Label="">
+    Die Gaming-Branche hat in den letzten Jahren einen unglaublichen Einfluss auf die Kultur und die Gesellschaft ausgeübt. Sie hat nicht nur die Art und Weise verändert, wie wir spielen, sondern auch wie wir kommunizieren, lernen und uns unterhalten.
+    <br/>     
+    <br/>     
+    Es wäre nicht übertrieben zu sagen, dass sie zu einem der wichtigsten Wirtschaftszweige weltweit geworden ist.
+</TextboxAndPicturesLayout>

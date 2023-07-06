@@ -13,3 +13,5 @@ chaptersProgress.subscribe((value) => localStorage.setItem('chaptersProgress', J
 
 export const displayGlossary = writable(false)
 export const displayAchievements = writable(false)
+
+export const displayImpressum = writable(false);

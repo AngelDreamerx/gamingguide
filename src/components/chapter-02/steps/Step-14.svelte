@@ -1,17 +1,11 @@
 <script>
-    import maskot from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_4.gif"
-    import enemy from "src/assets/bosses/idle/Boss_idle_1.gif"
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
+    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
 </script>
 
-<div class="flex flex-col h-full justify-center items-center gap-8">
-    <h1 class="text-6xl font-bold text-yellow-500 text-center">
-        Ein Gegner ist eingetroffen
-    </h1>
-    <h2 class="text-2xl font-medium text-yellow-500">
-        Teste dein Wissen
-    </h2>
-    <div class="flex items-end gap-48 mt-auto mb-8">
-        <img src={maskot} alt="maskot" class="h-64" />
-        <img src={enemy} alt="enemy" class="h-64" />
-    </div>
-</div>
+<TextboxAndPicturesLayout textHeader="Kampfsysteme" image1={test} image1Label="Gaming Convention" image2={null} image2Label="">
+    Die Gaming-Branche hat in den letzten Jahren einen unglaublichen Einfluss auf die Kultur und die Gesellschaft ausgeübt. Sie hat nicht nur die Art und Weise verändert, wie wir spielen, sondern auch wie wir kommunizieren, lernen und uns unterhalten.
+    <br/>     
+    <br/>     
+    Es wäre nicht übertrieben zu sagen, dass sie zu einem der wichtigsten Wirtschaftszweige weltweit geworden ist.
+</TextboxAndPicturesLayout>

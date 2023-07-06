@@ -4,18 +4,19 @@
     import soundOff from 'src/assets/icons/stumm.png'
     import backButton from 'src/assets/icons/zuruck.png'
 
-    import { sound, displayGlossary, displayAchievements } from 'src/lib/stores';
+    import { sound, displayGlossary, displayAchievements, displayImpressum } from 'src/lib/stores';
     const toggleSound = () => {
         sound.update((value) => !value)
     }
     const goBack = () => {
         displayAchievements.set(false)
         displayGlossary.set(false)
+        displayImpressum.set(false) // Set displayImpressum to false when going back
     }
 </script>
 
 <nav class="flex items-center justify-between px-16 py-8">
-    {#if $displayGlossary || $displayAchievements}
+    {#if $displayGlossary || $displayAchievements || $displayImpressum}
         <button on:click={() => goBack()}>
             <img class="h-16" src={backButton} alt="back" />
         </button>    
@@ -26,14 +27,23 @@
         <button class="text-sky-600 font-semibold text-md" on:click={() => {
             displayGlossary.set(true) 
             displayAchievements.set(false)
+            displayImpressum.set(false) // Set displayImpressum to false when Glossary is clicked
         }}>
             Glossar
         </button>
         <button class="text-sky-600 font-semibold text-md" on:click={() => {
             displayAchievements.set(true)
             displayGlossary.set(false)
+            displayImpressum.set(false) // Set displayImpressum to false when Achievements is clicked
         }}>
             Achievements
+        </button>
+        <button class="text-sky-600 font-semibold text-md" on:click={() => {
+            displayImpressum.set(true)
+            displayGlossary.set(false)
+            displayAchievements.set(false)
+        }}>
+            Impressum
         </button>
         <div class="flex space-x-8">
             <button on:click={toggleSound}>

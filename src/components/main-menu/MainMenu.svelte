@@ -10,6 +10,10 @@
   import Achievements from "./Achievements.svelte";
   import Footer from "./Footer.svelte";
   import { fade, } from "svelte/transition";
+
+  import { displayImpressum } from 'src/lib/stores';
+  import Impressum from 'src/components/Impressum.svelte';
+
 </script>
 
 {#if !$username} 
@@ -23,6 +27,8 @@
       <Glossary />
     {:else if $displayAchievements}
       <Achievements />
+    {:else if $displayImpressum}
+      <Impressum />
     {:else}
       <ChapterSelect />
     {/if}
