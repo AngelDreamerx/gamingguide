@@ -1,9 +1,10 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import test from "src/assets/backgrounds/cave/HG_cave_Hintergrund.png"
+    import picture1 from "src/assets/pictures/picture 8.jpg";
+    import picture2 from "src/assets/pictures/picture 9.jpg";
 </script>
 
-<TextboxAndPicturesLayout textHeader="Gaming am PC" image1={test} image1Label="" image2={test} image2Label="">
+<TextboxAndPicturesLayout textHeader="Gaming am PC" image1={picture1} image1Label="" image2={picture2} image2Label="">
     <b>Leistung und Anpassungsfähigkeiten:</b>
     Der PC ermöglicht es, die Hardware individuell anzupassen und aufzurüsten, um eine optimale Leistung zu erzielen. Daher ist kein Neukauf nötig. Grafisch anspruchsvolle Spiele liefern auf einem gut ausgestatteten Gaming-PC beeindruckende Ergebnisse.
     <br/>

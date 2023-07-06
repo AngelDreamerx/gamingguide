@@ -5,6 +5,7 @@
     import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
     import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
     import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
+    import picture from "src/assets/pictures/playstation.png";
 
 </script>
 
@@ -30,7 +31,7 @@
 
     <!-- RIGHT -->
     <HalfPictureContainer>
-        <FullPicture imgSrc={maskot} label="Playstation 5" />
+        <FullPicture imgSrc={picture} label="Playstation 5" />
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->

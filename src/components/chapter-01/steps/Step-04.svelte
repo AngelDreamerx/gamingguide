@@ -3,7 +3,7 @@
     import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
     import FullPicture from "src/components/basic-layout/FullPicture.svelte";
 
-    import test from "src/assets/backgrounds/cave/HG_cave_Hintergrund.png"
+    import Zeitstrahl from "src/assets/pictures/Kapitel_1_22.png";
 </script>
 
 <ContentFlexBox>
@@ -11,7 +11,7 @@
     <div class="h-full w-full overflow-hidden min-h-0 rounded-2xl bg-white bg-opacity-60 p-8 flex flex-col gap-8">
         <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
 
-        <FullPicture imgSrc={test} label=""/>
+        <FullPicture imgSrc={Zeitstrahl} label=""/>
     </div>
 
     <!-- BOTTOM-LEFT-CORNER -->

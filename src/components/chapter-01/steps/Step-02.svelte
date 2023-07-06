@@ -5,7 +5,7 @@
     import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
     import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
     import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
-
+    import Picture1 from"src/assets/pictures/picture_1.png";
 
 </script>
 
@@ -22,7 +22,7 @@
 
     <!-- RIGHT -->
     <HalfPictureContainer>
-        <FullPicture imgSrc={maskot} label="test" />
+        <FullPicture imgSrc={Picture1} label="" />
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->

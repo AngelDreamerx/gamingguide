@@ -1,10 +1,10 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import test from "src/assets/backgrounds/cave/HG_cave_Hintergrund.png"
+    import Picture2 from "src/assets/pictures/picture_2.jpg"
 </script>
 
 <!-- Inside is the text content -->
-<TextboxAndPicturesLayout textHeader="Die Geschichte der Videospiele" image1={test} image1Label="" image2={null} image2Label="">
+<TextboxAndPicturesLayout textHeader="Die Geschichte der Videospiele" image1={Picture2} image1Label="" image2={null} image2Label="">
     In den folgenden Jahrzehnten erlebte die Gaming-Branche einen enormen Fortschritt. Neue Konsolen wie Nintendo Entertainment System (NES), Sega Genesis und PlayStation eroberten die Wohnzimmer.
     <br/>     
     <br/>     

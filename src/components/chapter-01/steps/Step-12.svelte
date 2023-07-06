@@ -1,9 +1,11 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import test from "src/assets/backgrounds/cave/HG_cave_Hintergrund.png"
+    import picture1 from "src/assets/pictures/nintendo_ds.png";
+    import picture2 from "src/assets/pictures/switch.png";
+    
 </script>
 
-<TextboxAndPicturesLayout textHeader="Nintendo" image1={test} image1Label="Nintendo DSi" image2={test} image2Label="Nintendo Switch">
+<TextboxAndPicturesLayout textHeader="Nintendo" image1={picture1} image1Label="Nintendo DSi" image2={picture2} image2Label="Nintendo Switch">
     <b>Exklusive Spiele:</b>
     Nintendo bietet eine Vielzahl von Spielen, die für Familien und jüngere Spieler geeignet sind. Beispiele sind "Super Mario", "Animal Crossing" und "The Legend of Zelda".
     <br/>

@@ -1,9 +1,9 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
+    import picture from "src/assets/pictures/picture 7.jpeg";
 </script>
 
-<TextboxAndPicturesLayout textHeader="Die Konsolen Wahl" image1={test} image1Label="" image2={null} image2Label="">
+<TextboxAndPicturesLayout textHeader="Die Konsolen Wahl" image1={picture} image1Label="" image2={null} image2Label="">
     Jede Konsolenart hat ihre eigenen Stärken und Besonderheiten.
     Die Wahl der richtigen Konsole hängt von persönlichen Vorlieben, dem Budget und den gewünschten Spielen ab. Wichtig ist dabei zu beachten, dass bestimmte Spiele exklusiv für eine bestimmte Konsole verfügbar sein können.
     <br/>

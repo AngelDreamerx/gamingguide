@@ -1,9 +1,9 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
+    import picture from "src/assets/pictures/picture 6.jpeg";
 </script>
 
-<TextboxAndPicturesLayout textHeader="" image1={test} image1Label="" image2={null} image2Label="">
+<TextboxAndPicturesLayout textHeader="" image1={picture} image1Label="" image2={null} image2Label="">
     Die Gaming-Branche hat auch eine enorme wirtschaftliche Bedeutung.
     Im Jahr 2020 betrug der weltweite Umsatz der Gaming-Branche fast 180 Milliarden US- Dollar, was mehr ist als die Film- und Musikindustrie zusammen. Die Branche hat auch einen starken Einfluss auf die Kultur und die Gesellschaft, wie zum Beispiel durch die Darstellung von sozialen und politischen Themen in Spielen oder durch die Verwendung von Gaming als pädagogisches Tool in Schulen.
     <br/>
