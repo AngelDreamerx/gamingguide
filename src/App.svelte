@@ -18,16 +18,8 @@
         '/impressum': Impressum,
         '/drucken': Drucken,
     }
-
-    import Loading from 'src/components/Loading.svelte';
-
-    let isLoading = true; // Set the initial loading state
-
-    // Simulate an asynchronous task
-    setTimeout(() => {
-        isLoading = false; // Set loading state to false when the task is complete
-    }, 5000);
 </script>
+
 
 
 <main class="h-screen w-screen relative">

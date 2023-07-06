@@ -24,21 +24,21 @@
         <img src={logo} alt="logo" class="h-16"/>
     {/if}
     <div class="flex items-center space-x-12">
-        <button class="text-sky-600 font-semibold text-md" on:click={() => {
+        <button class="text-custom-blue font-semibold text-md" on:click={() => {
             displayGlossary.set(true) 
             displayAchievements.set(false)
             displayImpressum.set(false) // Set displayImpressum to false when Glossary is clicked
         }}>
             Glossar
         </button>
-        <button class="text-sky-600 font-semibold text-md" on:click={() => {
+        <button class="text-custom-blue font-semibold text-md" on:click={() => {
             displayAchievements.set(true)
             displayGlossary.set(false)
             displayImpressum.set(false) // Set displayImpressum to false when Achievements is clicked
         }}>
             Achievements
         </button>
-        <button class="text-sky-600 font-semibold text-md" on:click={() => {
+        <button class="text-custom-blue font-semibold text-md" on:click={() => {
             displayImpressum.set(true)
             displayGlossary.set(false)
             displayAchievements.set(false)
@@ -49,9 +49,15 @@
             <button on:click={toggleSound}>
                 <img class="h-8 w-8" src={$sound ? soundOn : soundOff} alt="sound">
             </button>
-            <button class="text-sky-600 font-bold text-3xl">
+            <button class="text-custom-blue font-bold text-3xl">
                 ?
             </button>
         </div>
     </div>
 </nav>
+
+<style>
+    .text-custom-blue {
+        color: #3f81bd; /* Replace with your desired hex color */
+    }
+</style>

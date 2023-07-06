@@ -40,9 +40,11 @@
 
     .correct {
         @apply text-slate-50 bg-yellow-500 bg-opacity-100;
+        background-color: #fdca7b;
     }
 
     .wrong {
         @apply text-slate-50 bg-zinc-500 bg-opacity-100;
+        
     }
 </style>

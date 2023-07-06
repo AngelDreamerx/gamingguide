@@ -1,7 +1,7 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
     import picture1 from "src/assets/pictures/picture 8.jpg";
-    import picture2 from "src/assets/pictures/picture 9.jpg";
+    import picture2 from "src/assets/pictures/picture 9.png";
 </script>
 
 <TextboxAndPicturesLayout textHeader="Gaming am PC" image1={picture1} image1Label="" image2={picture2} image2Label="">

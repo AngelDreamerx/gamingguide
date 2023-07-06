@@ -1,6 +1,6 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import picture from "src/assets/pictures/picture 4.jpg";
+    import picture from "src/assets/pictures/picture 4.png";
 </script>
 
 <TextboxAndPicturesLayout textHeader="" image1={picture} image1Label="E-Sport Veranstaltung" image2={null} image2Label="">

@@ -120,7 +120,8 @@
 
 <style>
     span#chapter-title {
-        @apply text-sky-600 font-semibold text-lg whitespace-nowrap;
+        @apply font-semibold text-lg whitespace-nowrap;
+        color: #3f81bd;
     }
 
     span#chapter-title.selected {
