@@ -17,5 +17,5 @@
         Wähle die richtige Antwort aus.
     </h4>
     <Questions question="Was kam zeitlich am frühesten?" a="Gameboy" b="Playstation 1" c="NES" d="VR Gaming" answer="c" onAnswer={setIsCorrect}/>
-    <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Das war leider die falsche Antwort. Versuch es nochmal, ${$username}!`}/>
+    <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Das schaffst du doch mit links, ${$username}!`}/>
 </div>

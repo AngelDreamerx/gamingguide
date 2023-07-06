@@ -9,7 +9,7 @@
         {
             title: "GG",
             description: "Nach Ende eines Spiels beglückwünschen sich Spieler mit einem fair gemeinten „Good Game“ also „gutes Spiel“",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [ˈji ˈji]"
         },
         {
             title: "Aimbot",
@@ -24,7 +24,7 @@
         {
             title: "Noob",
             description: "Bezeichnet ebenfalls einen unerfahrenen neuen Spieler, im Gegensatz zum Newbie, schwingt hier jedoch eine negative Konnotation mit. Man könnte auch vom ignoranten Neuling sprechen. Auch wenn erfahrende Spieler Anfängerfehler begehen wird Noob benutzt.",
-            language: "Englisch, Nomen"
+            language: "Englisch, Nomen [no͞ob]"
         },
         {
             title: "AFK",
@@ -44,7 +44,7 @@
         {
             title: "Git Gud",
             description: "Damit gibt ein Spieler einem anderen zu verstehen, dass er besser werden soll. Das kann durchaus auch verhöhnend gemeint sein. Git Gud kommt von „get good“.",
-            language: "Englisch"
+            language: "Englisch, Ausdruck [ˈɡɪt ɡo͝od]"
         },
         {
             title: "All In",
@@ -54,12 +54,12 @@
         {
             title: "HF",
             description: "(engl. „have fun“/dt. „hab Spaß“) HF wird meist vor dem Spiel dem Gegner gewünscht. Häufig wird auch HFGL verwendet, was für „have fun, good luck“ steht.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [ājˈ ɛf]"
         },
         {
             title: "NPC",
             description: "(engl. Non player character) dabei handelt es sich um einen Spielercharakter, der nicht durch einen anderen Spieler gesteuert wird, sondern zum Beispiel durch KI gesteuert wird.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [en pē sē]"
         },
         {
             title: "AOE",
@@ -69,37 +69,37 @@
         {
             title: "OOM",
             description: "OOM steht für „Out of Mana“ und bedeutet, dass ein Spieler in einem Spiel keine Mana-Punkte mehr hat, um spezielle Fähigkeiten oder Angriffe zu verwenden.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [oʊ oʊ ˈem]"
         },
         {
             title: "DLC",
             description: "(engl. „downloadable content“) hierbei handelt es sich um oftmals kostenpflichtige Zusatzinhalte für ein Spiel.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [dē el sē]"
         },
         {
             title: "KDA",
             description: "(engl. „Kill/death/assist ratio“) KDA bezieht sich auf das Verhältnis zwischen den Anzahl der Kills, Tode und Assists, die ein Spieler in einem Spiel erzielt hat.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [kā dē ˈeɪ]"
         },
         {
             title: "APM",
             description: "(engl. „Actions per minute“) APM bezieht sich auf die Anzahl der Aktionen, die ein Spieler pro Minute in einem Spiel ausführt, und gilt als Maß für die Schnelligkeit und Effizienz des Spielers.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [ˈeɪ ˈpē ˈem]"
         },
         {
             title: "OP",
             description: "(engl. „overpowered“) Ist ein Gegenstand „overpowered“, also übermächtig, kann er das Gleichgewicht im Spiel stören, z.B. eine Waffe, die allen anderen überlegen ist.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [oʊ ˈpē]"
         },
         {
             title: "DPS",
             description: "(engl. „Damage per second“) DPS bezieht sich auf den durchschnittlichen Schaden, den ein Spieler in einem Spiel pro Sekunde verursacht.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [dē ˈpē əˈs]"
         },
         {
             title: "L2P",
             description: "(engl. „learn to play“/dt. „lerne zu spielen“) Stellt ein Anfänger (Noob) pausenlos Fragen zum Spiel, bekommt er von anderen Spielern gerne ein L2P als Antwort.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [el to͞o ˈpē]"
         },
         {
             title: "Mob",
@@ -109,12 +109,12 @@
         {
             title: "Ragequit",
             description: "„Ragequit“ ist der Ausdruck, der verwendet wird, wenn ein Spieler in einem Spiel vorzeitig aussteigt, weil er wütend oder frustriert ist.",
-            language: "Englisch, Ausdruck"
+            language: "Englisch, Ausdruck [rāj kwit]"
         },
         {
             title: "BM",
             description: "BM steht für „Bad Manners“ und bezieht sich auf schlechtes Benehmen von Spielern in Multiplayer-Spielen.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [bē ˈem]"
         },
         {
             title: "Easter Egg",
@@ -124,42 +124,42 @@
         {
             title: "Nerfed",
             description: "Man könnte sagen, es ist das Gegenteil von Buff, anstatt also einen Gegenstand oder eine Figur zu stärken, wird sie absichtlich geschwächt. Oft mit dem Ziel, das Gleichgewicht im Spiel wiederherzustellen.",
-            language: "Englisch, Verb"
+            language: "Englisch, Verb [nərvd]"
         },
         {
             title: "FF",
             description: "FF steht für „Forfeit“ und bedeutet, dass ein Spieler ein Spiel aufgibt oder sich zurückzieht.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [ˈɛf ˈɛf]"
         },
         {
             title: "RNG",
             description: "(engl. „random number generator“/ dt. Zufallsgenerator)",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [əˈr en ˈji]"
         },
         {
             title: "BRB",
             description: "(engl. „be right back“) Ähnlich wie AFK signalisiert BRB die Abwesenheit eines Spielers bzw. er kommuniziert so, dass er eine sehr kurze Pause macht und gleich wieder da ist.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [bē ˈr bē]"
         },
         {
             title: "Triple A Game",
             description: "Triple A Games sind hochbudgetierte und aufwändig produzierte Spiele, die von großen und etablierten Entwicklerstudios erstellt werden.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [ˈtripəl ā ɡām]"
         },
         {
             title: "Vanilla",
             description: "Bezeichnet in der Gamersprache die Standardversion eines Spiels (ohne Erweiterungen).",
-            language: "Englisch, Adjektiv"
+            language: "Englisch, Adjektiv [vəˈnilə]"
         },
         {
             title: "Flamen",
             description: "Flamen bezieht sich auf absichtliche Beleidigungen und Beschimpfungen von Spielern in einem Multiplayer-Spiel.",
-            language: "Englisch, Akronym"
+            language: "Englisch, Akronym [flāmen]"
         },
         {
             title: "XP",
             description: "(Abkürzung engl. „Experience Points“/ dt. Erfahrungspunkte).",
-            language: "Englisch, Adjektiv"
+            language: "Englisch, Adjektiv [ˈɪks ˈpē]"
         },
     ]
 

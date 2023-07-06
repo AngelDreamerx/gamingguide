@@ -25,3 +25,9 @@
 <main class="h-screen w-screen relative">
     <Router routes={routes}/>
 </main>
+
+<style>
+  :global(body) {
+    font-family: "Belanosima", sans-serif;
+  }
+</style>
