@@ -4,8 +4,7 @@
 </script>
 
 <TextboxAndPicturesLayout textHeader="" image1={picture} image1Label="" image2={null} image2Label="">
-    Die Gaming-Branche hat auch eine enorme wirtschaftliche Bedeutung.
-    Im Jahr 2020 betrug der weltweite Umsatz der Gaming-Branche fast 180 Milliarden US- Dollar, was mehr ist als die Film- und Musikindustrie zusammen. Die Branche hat auch einen starken Einfluss auf die Kultur und die Gesellschaft, wie zum Beispiel durch die Darstellung von sozialen und politischen Themen in Spielen oder durch die Verwendung von Gaming als pädagogisches Tool in Schulen.
+    Die Gaming-Branche hat auch eine enorme wirtschaftliche Bedeutung. Im Jahr 2020 betrug der weltweite Umsatz der Gaming-Branche fast 180 Milliarden US-Dollar, was mehr ist als die Film- und Musikindustrie zusammen. Die Branche hat auch einen starken Einfluss auf die Kultur und die Gesellschaft, wie zum Beispiel durch die Darstellung von sozialen und politischen Themen in Spielen oder durch die Verwendung von Gaming als pädagogisches Tool in Schulen.
     <br/>
     <br/>
     Du willst mehr über die Gaming Branche wissen? Der Verband der deutschen Games Branche hat hierzu eine Publikation veröffentlicht.
