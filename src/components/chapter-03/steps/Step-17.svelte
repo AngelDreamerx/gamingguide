@@ -1,10 +1,10 @@
 <script>
-    import maskotHappy from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_5.gif"
-    import maskotCringe from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_1.gif"
-    import enemy from "src/assets/bosses/idle/Boss_idle_1.gif"
+    import maskotHappy from "src/assets/maskot/emotions/Kapitel_3/Maskottchen_emotionen_3_5.gif"
+    import maskotCringe from "src/assets/maskot/emotions/Kapitel_3/Maskottchen_emotionen_3_1.gif"
+    import enemy from "src/assets/bosses/idle/Boss_idle_3.gif"
     import TextbubbleAndEnemy from "src/components/basic-layout/quiz/TextbubbleAndEnemy.svelte";
     import { username } from "src/lib/stores";
-    import Questions from "src/components/basic-layout/quiz/Questions.svelte";
+    import Questions from "src/components/basic-layout/quiz/Questions3.svelte";
 
     let isCorrect = false;
     function setIsCorrect(newValue) {

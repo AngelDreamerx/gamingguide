@@ -35,12 +35,14 @@
 
 <style>
     .textbox {
-        @apply rounded-2xl text-slate-600 text-xl font-medium flex items-center justify-center bg-orange-200 bg-opacity-50 px-16 py-8;
+        @apply rounded-2xl text-slate-600 text-xl font-medium flex items-center justify-center px-16 py-8;
+        background-color: rgba(196,75,89, 0.6);
+        
     }
 
     .correct {
         @apply text-slate-50 bg-yellow-500 bg-opacity-100;
-        background-color: #c44b59;
+        background-color: rgba(196,75,89, 1);
     }
 
     .wrong {

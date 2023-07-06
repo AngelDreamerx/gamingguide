@@ -35,7 +35,8 @@
 
 <style>
     .textbox {
-        @apply rounded-2xl text-slate-600 text-xl font-medium flex items-center justify-center bg-orange-200 bg-opacity-50 px-16 py-8;
+        @apply rounded-2xl text-slate-600 text-xl font-medium flex items-center justify-center  px-16 py-8;
+        background-color: rgba(71,35,97,0.6);
     }
 
     .correct {

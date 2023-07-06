@@ -1,6 +1,6 @@
 <script>
-    import maskot from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_2.gif"
-    import enemy from "src/assets/bosses/defeated/Boss_tot_1.gif"
+    import maskot from "src/assets/maskot/emotions/Kapitel_3/Maskottchen_emotionen_3_4.gif"
+    import enemy from "src/assets/bosses/defeated/Boss_tot_3.gif"
     import { username } from "src/lib/stores";
 </script>
 
