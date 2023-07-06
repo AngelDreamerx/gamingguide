@@ -7,6 +7,8 @@
     import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
     import Picture1 from"src/assets/pictures/picture_1.png";
 
+    //import font from "src/
+
 </script>
 
 <ContentFlexBox>
