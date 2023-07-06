@@ -16,6 +16,8 @@
         <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
 
         <ScrollingTextbox>
+            Die Geschichte der Videospiele reicht zurück bis in die 1950er Jahre, als die ersten experimentellen Spiele entwickelt wurden. Damals waren diese Spiele noch einfach und auf großen Computern oder Arcade-Automaten verfügbar. 
+            <br><br>
             Mit dem Aufkommen der Heimkonsolen wie dem Atari 2600 in den 1970er und 1980er Jahren begann die Ära der Videospielrevolution. Plötzlich konnte man Spiele direkt von zuhause aus spielen und das Interesse an Videospielen verbreitete sich in der ganzen Welt.
         </ScrollingTextbox>
     </HalfTextbox>

@@ -3,7 +3,7 @@
     import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
     import FullPicture from "src/components/basic-layout/FullPicture.svelte";
 
-    import Zeitstrahl from "src/assets/pictures/Kapitel_1_22.png";
+    import Zeitstrahl from "src/assets/pictures/Zeitstrahl_1.png";
 </script>
 
 <ContentFlexBox>
