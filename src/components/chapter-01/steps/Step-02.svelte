@@ -22,7 +22,7 @@
 
     <!-- RIGHT -->
     <HalfPictureContainer>
-        <FullPicture imgSrc={maskot} label="" />
+        <FullPicture imgSrc={maskot} label="test" />
     </HalfPictureContainer>
 
     <!-- BOTTOM-LEFT-CORNER -->
