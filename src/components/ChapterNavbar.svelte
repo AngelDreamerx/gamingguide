@@ -6,7 +6,7 @@
     export let onBack; 
     export let displayBack;
     export let title;
-    export let titleColorClasses
+    export let color;
 </script>
 
 <div class="absolute top-0 flex w-full items-center justify-between pr-16">
@@ -17,7 +17,7 @@
             <img src={ggLogo} alt="logo" class="h-24" />
         {/if}
     </button>
-    {#if title && titleColorClasses}
-            <h4 class={`text-3xl ${titleColorClasses}`}>{title}</h4>
+    {#if title && color}
+        <h4 class={`text-3xl`} style={`color: ${color}`}>{title}</h4>
     {/if}
 </div>

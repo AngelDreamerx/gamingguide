@@ -152,12 +152,12 @@
 
 <div in:fade={{duration: 500}} class="z-40 flex flex-col h-full relative">
     <!-- displays logo and title in top left and top right corner  -->
-    <ChapterNavbar title={steps[currentStep].title} titleColorClasses="text-yellow-500" onBack={null} displayBack={false} />
+    <ChapterNavbar title={steps[currentStep].title} color="#fdca7b"  onBack={null} displayBack={false} />
     
     <!-- 3-part "grid" left and right button with content in the middle -->
     <div class="flex h-full items-center justify-center gap-8">
         <!-- Hide previous button for first step (can't go back) -->
-        <PreviousButton hide={currentStep <= 0} clickFn={previousStep} colorClasses="text-yellow-500"/>
+        <PreviousButton hide={currentStep <= 0} clickFn={previousStep} color="#fdca7b" />
 
         <!-- Main content -->
         <div class="basis-10/12 h-full pt-32">
@@ -165,7 +165,7 @@
         </div>
 
         <!-- Next button is always present (will go back to main menu on last step) -->
-        <NextButton clickFn={nextStep} colorClasses="text-yellow-500"/>
+        <NextButton clickFn={nextStep} color="#fdca7b"/>
     </div>
 </div>
 
