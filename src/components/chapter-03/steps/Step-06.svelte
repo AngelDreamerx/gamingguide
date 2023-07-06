@@ -1,11 +1,22 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import picture from "src/assets/pictures/picture 3.jpg";
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout3.svelte";
+    import Picture2 from "src/assets/pictures/picture 19.jpg"
 </script>
 
-<TextboxAndPicturesLayout textHeader="Medienkompetenz" image1={picture} image1Label="Gaming Convention" image2={null} image2Label="">
-    Die Gaming-Branche hat in den letzten Jahren einen unglaublichen Einfluss auf die Kultur und die Gesellschaft ausgeübt. Sie hat nicht nur die Art und Weise verändert, wie wir spielen, sondern auch wie wir kommunizieren, lernen und uns unterhalten.
-    <br/>     
-    <br/>     
-    Es wäre nicht übertrieben zu sagen, dass sie zu einem der wichtigsten Wirtschaftszweige weltweit geworden ist.
+<!-- Inside is the text content -->
+<TextboxAndPicturesLayout textHeader="Medienkompetenz" image1={Picture2} image1Label="" image2={null} image2Label="">
+    <b>Medienbewusstsein:</b>
+    Beim Gaming wirst du mit verschiedenen Medieninhalten konfrontiert. Es ist wichtig, zu reflektieren, wie Spiele Themen behandeln und welche Botschaften sie vermitteln.
+    <br/><br/>
+    <b>Kritisches Denken:</b>
+    Hinterfrage Spiele kritisch, um ihre Absichten und mögliche Auswirkungen zu verstehen. Einschätzen, welche Spiele für dich geeignet sind.
+    <br/><br/>
+    <b>Datenschutz und Online-Sicherheit:</b>
+    Informiere dich über Datenschutzbestimmungen und Sicherheitsmaßnahmen. Achte darauf, persönliche Informationen zu schützen und Privatsphäre-Einstellungen zu prüfen.
+    <br/><br/>
+    <b>Quellenkritik:</b>
+    Hinterfrage Informationen aus Spielanleitungen oder Foren. Vergleiche Quellen, suche nach vertrauenswürdigen Experten und prüfe Informationen kritisch.
+    <br/><br/>
+    <b>Zeitmanagement:</b>
+    Integriere das Spielen in einen ausgewogenen Alltag und setze klare Grenzen. Berücksichtige Schule, soziale Interaktionen und körperliche Bewegung.
 </TextboxAndPicturesLayout>

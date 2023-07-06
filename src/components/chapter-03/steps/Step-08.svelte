@@ -1,11 +1,11 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import picture from "src/assets/pictures/picture 3.jpg";
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout3.svelte";
+    import picture from "src/assets/pictures/pic1.jpeg";
 </script>
 
-<TextboxAndPicturesLayout textHeader="Gefahren der Reise" image1={picture} image1Label="Gaming Convention" image2={null} image2Label="">
-    Die Gaming-Branche hat in den letzten Jahren einen unglaublichen Einfluss auf die Kultur und die Gesellschaft ausgeübt. Sie hat nicht nur die Art und Weise verändert, wie wir spielen, sondern auch wie wir kommunizieren, lernen und uns unterhalten.
+<TextboxAndPicturesLayout textHeader="Gefahren der Reise" image1={picture} image1Label="" image2={null} image2Label="">
+    Beim Gaming gibt es zahlreiche positive Aspekte, aber es ist auch wichtig, sich der potenziellen Gefahren bewusst zu sein. Dabei geht es vom Schutz vor nicht jugendfreien Inhalten bis hin zum Mobbing.
     <br/>     
     <br/>     
-    Es wäre nicht übertrieben zu sagen, dass sie zu einem der wichtigsten Wirtschaftszweige weltweit geworden ist.
+    Indem wir uns diesen Gefahren und der Vorbeugung dieser stellen, können wir unseren Kindern helfen, ein sicheres und verantwortungsvolles Spielerlebnis zu haben.
 </TextboxAndPicturesLayout>

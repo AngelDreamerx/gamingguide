@@ -49,7 +49,7 @@
         let previousProgress = 100
         chapters = chapters.map(chapter => {
             const progress = value[chapter.id] || 0;
-            const isUnlocked = previousProgress === 100 
+            const isUnlocked = previousProgress >= 100 
             previousProgress = progress
             return {
                 ...chapter,

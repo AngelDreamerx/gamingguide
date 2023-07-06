@@ -1,7 +1,7 @@
 <script>
-    import maskotHappy from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_1.gif"
-    import maskotCringe from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_5.gif"
-    import enemy from "src/assets/bosses/idle/Boss_idle_1.gif"
+    import maskotHappy from "src/assets/maskot/emotions/Kapitel_4/Maskottchen_emotionen_4_5.gif"
+    import maskotCringe from "src/assets/maskot/emotions/Kapitel_4/Maskottchen_emotionen_4_1.gif"
+    import enemy from "src/assets/bosses/idle/Boss_idle_4.gif"
     import TextbubbleAndEnemy from "src/components/basic-layout/quiz/TextbubbleAndEnemy.svelte";
     import { username } from "src/lib/stores";
     import Questions from "src/components/basic-layout/quiz/Questions.svelte";

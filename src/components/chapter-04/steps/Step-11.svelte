@@ -1,6 +1,6 @@
 <script>
-    import maskot from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_4.gif"
-    import achievement from "src/assets/achievements/Achievements-01.png"
+    import maskot from "src/assets/maskot/emotions/Kapitel_4/Maskottchen_emotionen_4_4.gif"
+    import achievement from "src/assets/achievements/Achievements-04.png"
 </script>
 
 <div class="flex flex-col h-full justify-end items-center pb-8">

@@ -5,7 +5,3 @@
   };
 </script>
 
-<footer class="w-full flex mt-auto justify-end gap-12 p-8 pr-16 text-white">
-
-    <button on:click={handleClick}>Impressum</button>
-</footer>

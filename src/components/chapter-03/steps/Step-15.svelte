@@ -1,12 +1,29 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import picture from "src/assets/pictures/picture 7.jpeg";
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout3.svelte";
+    import picture from "src/assets/pictures/pic5.jpeg";
 </script>
 
 <TextboxAndPicturesLayout textHeader="Scamming" image1={picture} image1Label="" image2={null} image2Label="">
-    Jede Konsolenart hat ihre eigenen Stärken und Besonderheiten.
-    Die Wahl der richtigen Konsole hängt von persönlichen Vorlieben, dem Budget und den gewünschten Spielen ab. Wichtig ist dabei zu beachten, dass bestimmte Spiele exklusiv für eine bestimmte Konsole verfügbar sein können.
-    <br/>
-    <br/>
-    Wenn dein Kind bestimmte Spiele spielen möchte, solltest du prüfen, welche Konsole dafür geeignet ist. Es kann auch hilfreich sein, mit anderen Spielern zu sprechen oder Online-Recherchen durchzuführen, um mehr Informationen zu erhalten.
+    Beim Gaming besteht auch das Risiko
+des Betrugs oder des Diebstahls
+persönlicher Informationen.
+
+    <br/>     
+    <br/>     
+    Sei
+vorsichtig, wenn dir jemand online
+verspricht, kostenlose Inhalte, Cheats
+oder andere Vorteile anzubieten. Gib
+niemals deine persönlichen 
+Informationen wie Namen, Adresse,
+Telefonnummer oder Bankdaten an
+Fremde weiter.
+<br><br>
+Achte darauf, nur
+vertrauenswürdige Quellen für
+Downloads oder Käufe zu verwenden
+und sei misstrauisch gegenüber
+verdächtigen Anfragen oder
+Angeboten.
+
 </TextboxAndPicturesLayout>

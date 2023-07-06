@@ -1,12 +1,28 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import picture from "src/assets/pictures/picture 7.jpeg";
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout3.svelte";
+    import picture from "src/assets/pictures/pic3.jpeg";
 </script>
 
 <TextboxAndPicturesLayout textHeader="Grooming" image1={picture} image1Label="" image2={null} image2Label="">
-    Jede Konsolenart hat ihre eigenen Stärken und Besonderheiten.
-    Die Wahl der richtigen Konsole hängt von persönlichen Vorlieben, dem Budget und den gewünschten Spielen ab. Wichtig ist dabei zu beachten, dass bestimmte Spiele exklusiv für eine bestimmte Konsole verfügbar sein können.
-    <br/>
-    <br/>
-    Wenn dein Kind bestimmte Spiele spielen möchte, solltest du prüfen, welche Konsole dafür geeignet ist. Es kann auch hilfreich sein, mit anderen Spielern zu sprechen oder Online-Recherchen durchzuführen, um mehr Informationen zu erhalten.
+    Grooming bezieht sich auf das
+Vorgehen von Erwachsenen, die
+versuchen, das Vertrauen von Kindern
+und Jugendlichen zu gewinnen, um
+sexuellen Missbrauch oder andere
+schädliche Handlungen zu
+ermöglichen.
+
+    <br/>     
+    <br/>     
+    Beim Online-Gaming
+besteht das Risiko, dass Fremde
+versuchen, Kontakt mit dir
+aufzunehmen. Es ist wichtig, dass du
+niemals persönliche Informationen
+oder private Details mit Fremden teilst
+und dass du verdächtige oder
+unangemessene Kontakte deinen
+Eltern oder den zuständigen Stellen
+meldest.
+
 </TextboxAndPicturesLayout>

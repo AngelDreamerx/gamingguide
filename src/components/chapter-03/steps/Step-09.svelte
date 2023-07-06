@@ -1,12 +1,34 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import picture from "src/assets/pictures/picture 7.jpeg";
+    import maskot from "src/assets/maskot/idle/Maskottchen_idle_3.gif"
+    import ContentFlexBox from "src/components/basic-layout/ContentFlexBox.svelte";
+    import FullPicture from "src/components/basic-layout/FullPicture.svelte";
+    import HalfPictureContainer from "src/components/basic-layout/HalfPictureContainer.svelte";
+    import HalfTextbox from "src/components/basic-layout/HalfTextbox.svelte";
+    import ScrollingTextbox from "src/components/basic-layout/ScrollingTextbox.svelte";
+    import Picture1 from"src/assets/pictures/USK.png";
+
+    //import font from "src/
+
 </script>
 
-<TextboxAndPicturesLayout textHeader="Altersbegrenzung" image1={picture} image1Label="" image2={null} image2Label="">
-    Jede Konsolenart hat ihre eigenen Stärken und Besonderheiten.
-    Die Wahl der richtigen Konsole hängt von persönlichen Vorlieben, dem Budget und den gewünschten Spielen ab. Wichtig ist dabei zu beachten, dass bestimmte Spiele exklusiv für eine bestimmte Konsole verfügbar sein können.
-    <br/>
-    <br/>
-    Wenn dein Kind bestimmte Spiele spielen möchte, solltest du prüfen, welche Konsole dafür geeignet ist. Es kann auch hilfreich sein, mit anderen Spielern zu sprechen oder Online-Recherchen durchzuführen, um mehr Informationen zu erhalten.
-</TextboxAndPicturesLayout>
+<ContentFlexBox>
+    <!-- LEFT -->
+    <HalfTextbox>
+        <!-- Header -->
+        <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
+
+        <ScrollingTextbox>
+            Viele Spiele haben Altersbeschränkungen, die darauf hinweisen, für welche Altersgruppe das Spiel geeignet ist.
+            <br><br>
+            Es ist wichtig, diese Beschränkungen zu respektieren und sicherzustellen, dass dein Kind Spiele spielt, die ihrem Alter und Entwicklungsstand angemessen sind. Altersbeschränkungen dienen dazu, den Inhalt zu regulieren und sicherzustellen, dass dein Kind keine Inhalte sieht oder erlebt, die für dich nicht geeignet sind.
+        </ScrollingTextbox>
+    </HalfTextbox>
+
+    <!-- RIGHT -->
+    <HalfPictureContainer>
+        <FullPicture imgSrc={Picture1} label="" />
+    </HalfPictureContainer>
+
+    <!-- BOTTOM-LEFT-CORNER -->
+    <img src={maskot} alt="maskot" class="absolute -left-16 bottom-4 h-52" />
+</ContentFlexBox>

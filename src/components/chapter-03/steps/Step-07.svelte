@@ -1,11 +1,16 @@
 <script>
-    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
-    import picture from "src/assets/pictures/picture 3.jpg";
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout3.svelte";
+    import Picture2 from "src/assets/pictures/picture 20.jpg"
 </script>
 
-<TextboxAndPicturesLayout textHeader="Personenbezogene Fertigkeiten" image1={picture} image1Label="Gaming Convention" image2={null} image2Label="">
-    Die Gaming-Branche hat in den letzten Jahren einen unglaublichen Einfluss auf die Kultur und die Gesellschaft ausgeübt. Sie hat nicht nur die Art und Weise verändert, wie wir spielen, sondern auch wie wir kommunizieren, lernen und uns unterhalten.
-    <br/>     
-    <br/>     
-    Es wäre nicht übertrieben zu sagen, dass sie zu einem der wichtigsten Wirtschaftszweige weltweit geworden ist.
+<!-- Inside is the text content -->
+<TextboxAndPicturesLayout textHeader="Personenbezogene Kompetenzen" image1={Picture2} image1Label="" image2={null} image2Label="">
+    <b>Selbstregulation und Frustrationstoleranz:</b>
+    Erfolge und Fortschritte im Spiel stärken dein Selbstvertrauen. Du lernst deine Stärken und Schwächen kennen und entwickelst ein positives Selbstbild.
+    <br/><br/>
+    <b>Konzentration und Ausdauer:</b>
+    Beim Gaming musst du dich konzentrieren und Ausdauer zeigen. Das hilft dir, dich auf Aufgaben zu fokussieren und durchzuhalten, auch wenn es schwierig wird.
+    <br/><br/>
+    <b>Selbstvertrauen und Selbstwahrnehmung:</b>
+    Beim Gaming musst du mit Herausforderungen umgehen und Frustration bewältigen. Lerne, deine Emotionen zu regulieren, Rückschläge zu akzeptieren und eine positive Einstellung beizubehalten.
 </TextboxAndPicturesLayout>
