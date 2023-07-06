@@ -1,0 +1,14 @@
+<script>
+    import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout.svelte";
+    import picture from "src/assets/pictures/picture 5.jpg";
+</script>
+
+<TextboxAndPicturesLayout textHeader="" image1={picture} image1Label="VR Gaming" image2={null} image2Label="">
+    Ein weiterer wichtiger Faktor für den Einfluss der Gaming-Branche ist die Möglichkeit, online mit anderen Spielern aus der ganzen Welt zu interagieren.
+    <br/>
+    <br/>
+    Online-Gaming-Plattformen wie Steam, Xbox Live und PlayStation Network ermöglichen es Spielern, mit Freunden und Fremden in Echtzeit zu spielen, zu chatten und zu kommunizieren.
+    <br/>
+    <br/>
+    Das hat die Art und Weise verändert, wie Menschen Freizeitaktivitäten gestalten und miteinander interagieren.
+</TextboxAndPicturesLayout>
