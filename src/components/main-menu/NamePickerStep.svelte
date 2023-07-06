@@ -1,6 +1,6 @@
 <script>
     import { username } from "src/lib/stores"
-    import maskotWireframe from 'src/assets/maskot/idle/Maskottchen_idle_4.gif'
+    import maskotWireframe from 'src/assets/maskot/idle/Maskottchen_idle_0.gif'
 
     let lName = ""
     

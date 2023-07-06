@@ -1,6 +1,6 @@
 <script>
-    import maskotHappy from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_1.gif"
-    import maskotCringe from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_5.gif"
+    import maskotHappy from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_5.gif"
+    import maskotCringe from "src/assets/maskot/emotions/Kapitel_1/Maskottchen_emotionen_1_1.gif"
     import enemy from "src/assets/bosses/idle/Boss_idle_1.gif"
     import TextbubbleAndEnemy from "src/components/basic-layout/quiz/TextbubbleAndEnemy.svelte";
     import { username } from "src/lib/stores";
@@ -17,5 +17,5 @@
         Wähle die richtige Antwort aus.
     </h4>
     <Questions question="Welche Konsole ist die beste für einen familienfreundlichen Spieleabend?" a="XBOX" b="Nintendo" c="Playstation" d="PC" answer="b" onAnswer={setIsCorrect}/>
-    <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Du hast es fast geschafft, ${$username}!`}/>
+    <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Das war leider die falsche Antwort. Versuch es nochmal, ${$username}!`}/>
 </div>

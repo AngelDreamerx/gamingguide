@@ -2,7 +2,7 @@
     import ArrowUp from "svelte-icons/fa/FaCaretUp.svelte"
     import ArrowDown from "svelte-icons/fa/FaCaretDown.svelte"
     import Search from "svelte-icons/fa/FaSearch.svelte"
-    import maskotWireframe from "src/assets/maskot/idle/Maskottchen_idle_4.gif"
+    import maskotWireframe from "src/assets/maskot/idle/Maskottchen_idle_0.gif"
     import { fade } from 'svelte/transition';
 
     const words = [

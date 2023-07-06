@@ -100,12 +100,12 @@
         {
             id: 14,
             component: Step_15,
-            title: "Abfrage"
+            title: "Teste dein Wissen"
         },
         {
             id: 15,
             component: Step_16,
-            title: "Abfrage"
+            title: "Teste dein Wissen"
         },
         {
             id: 16,

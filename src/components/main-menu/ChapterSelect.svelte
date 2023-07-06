@@ -1,5 +1,5 @@
 <script>
-    import maskotWireframe from "src/assets/maskot/idle/Maskottchen_idle_4.gif"
+    import maskotWireframe from "src/assets/maskot/idle/Maskottchen_idle_0.gif"
 
     import chapter1 from "src/assets/backgrounds/HG_75-34.png"
     import chapter2 from "src/assets/backgrounds/HG_75-31.png"

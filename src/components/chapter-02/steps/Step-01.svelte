@@ -1,5 +1,5 @@
 <script>
-    import maskot from "src/assets/maskot/idle/Maskottchen_idle_1.gif"
+    import maskot from "src/assets/maskot/change/Maskottchen_Outfitwechsel_2.gif";
 </script>
 
 <div class="flex flex-col h-full justify-center items-center gap-8 text-center">

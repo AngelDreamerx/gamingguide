@@ -1,5 +1,5 @@
 <script>
-    import maskotWireframe from 'src/assets/maskot/walk/Maskottchen_laufen_4.gif'
+    import maskotWireframe from 'src/assets/maskot/walk/Maskottchen_laufen_0.gif'
 
     import { greetingDone } from 'src/lib/stores';
     import { fade } from 'svelte/transition';
