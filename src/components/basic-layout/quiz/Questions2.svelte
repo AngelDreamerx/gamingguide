@@ -41,7 +41,7 @@
 
     .correct {
         @apply text-slate-50 bg-yellow-500 bg-opacity-100;
-        background-color: #fdca7b;
+        background-color: #59776b;
     }
 
     .wrong {

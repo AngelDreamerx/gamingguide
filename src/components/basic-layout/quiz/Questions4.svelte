@@ -40,7 +40,7 @@
     }
 
     .correct {
-        @apply text-slate-50 bg-yellow-500 bg-opacity-100;
+        @apply text-slate-50 bg-opacity-100;
         background-color: #472361;
     }
 

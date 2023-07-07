@@ -9,12 +9,12 @@
 
   // Array of image paths for the slideshow
   const images = [
-    'src/assets/pictures/tutorial/Tutorial_1.jpg',
-    'src/assets/pictures/tutorial/Tutorial_2.jpg',
-    'src/assets/pictures/tutorial/Tutorial_3.jpg',
-    'src/assets/pictures/tutorial/Tutorial_4.jpg',
-    'src/assets/pictures/tutorial/Tutorial_5.jpg',
-    'src/assets/pictures/tutorial/Tutorial_6.jpg',
+    '/src/assets/pictures/tutorial/Tutorial_1.png',
+    '/src/assets/pictures/tutorial/Tutorial_2.png',
+    '/src/assets/pictures/tutorial/Tutorial_3.png',
+    '/src/assets/pictures/tutorial/Tutorial_4.png',
+    '/src/assets/pictures/tutorial/Tutorial_5.png',
+    '/src/assets/pictures/tutorial/Tutorial_6.png',
   ];
 
   // Writable store to hold the current image index
@@ -39,10 +39,10 @@
 </script>
 
 <div in:fade={{ duration: 500 }} class="z-40 flex flex-col mx-24 items-center pt-24 h-full relative">
-  <div class="flex mt-auto justify-end w-[80%] mb-24 items-end mx-auto relative">
+  <div class="flex mt-auto justify-end h-[100%] mb-24 items-end mx-auto relative">
     {#each images as image, index}
       {#if $currentImage === index}
-        <img class="h-64 absolute left-[50%] translate-x-[-50%]" src={image} alt="slideshow-image" />
+        <img class="h-85 w-85 flex-1 shadow-xl rounded-2xl" src={image} alt="image" />
       {/if}
     {/each}
     <button
