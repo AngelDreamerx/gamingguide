@@ -17,5 +17,5 @@
         Wähle die richtige Antwort aus.
     </h4>
     <Questions question="Welche Konsole ist die beste für einen familienfreundlichen Spieleabend?" a="XBOX" b="Nintendo" c="Playstation" d="PC" answer="b" onAnswer={setIsCorrect}/>
-    <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Das war leider die falsche Antwort. Versuch es nochmal, ${$username}!`}/>
+    <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `${$username} das Ungeheuer hat keine Chance gegen dich!`}/>
 </div>
