@@ -42,7 +42,7 @@
   <div class="flex mt-auto justify-end gap-5 w-full mb-24 items-end mx-auto relative">
     {#each images as image, index}
       {#if $currentImage === index}
-        <img class="w-80 flex-1 shadow-xl rounded-2xl" src={image} alt="image" />
+        <img class="w-80 flex-1 shadow-xl rounded-2xl" src={image} alt="Tutorial" />
       {/if}
     {/each}
     <button
