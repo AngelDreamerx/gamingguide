@@ -16,6 +16,6 @@
     <h4 class="text-slate-600 text-lg font-medium self-start mb-8 px-12">
         Wähle die richtige Antwort aus.
     </h4>
-    <Questions question="Welche Konsole ist die beste für einen familienfreundlichen Spieleabend?" a="XBOX" b="Nintendo" c="Playstation" d="PC" answer="b" onAnswer={setIsCorrect}/>
+    <Questions question="Dein Kind kommt seit 10 min nicht zum Essen. Was tust du?" a="Eine klare Ansage machen" b="Zum Speichern auffordern" c="Das Spiel ausschalten" d="Nach der Verspätung fragen" answer="d" onAnswer={setIsCorrect}/>
     <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Du hast es fast geschafft, ${$username}!`}/>
 </div>

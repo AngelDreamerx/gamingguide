@@ -16,6 +16,6 @@
     <h4 class="text-slate-600 text-lg font-medium self-start mb-8 px-12">
         Wähle die richtige Antwort aus.
     </h4>
-    <Questions question="Stimmt es, das alle die Videospiele spielen, eine sucht entwickeln?" a="XBOX" b="Nintendo" c="Playstation" d="PC" answer="b" onAnswer={setIsCorrect}/>
+    <Questions question="In welchem Genre treten die Spieler gegeneinander an bis nur noch einer überlebt?" a="RPG" b="MMO" c="Battle Royale" d="FPS" answer="c" onAnswer={setIsCorrect}/>
     <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Du hast es fast geschafft, ${$username}!`}/>
 </div>

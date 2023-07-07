@@ -16,6 +16,8 @@
     import Step_09 from "./steps/Step-09.svelte";
     import Step_10 from "./steps/Step-10.svelte";
     import Step_11 from "./steps/Step-11.svelte";
+    import Step_12 from "./steps/Step-12.svelte";
+    import Step_13 from "./steps/Step-13.svelte";
 
 
 
@@ -73,6 +75,16 @@
         {
             id: 10,
             component: Step_11,
+            title: ""
+        },
+        {
+            id: 11,
+            component: Step_12,
+            title: ""
+        },
+        {
+            id: 12,
+            component: Step_13,
             title: ""
         },
     ]

@@ -1,6 +1,6 @@
 <script>
-    import maskot from "src/assets/maskot/emotions/Kapitel_2/Maskottchen_emotionen_2_4.gif"
-    import achievement from "src/assets/achievements/Achievements-02.png"
+    import maskot from "src/assets/maskot/emotions/Kapitel_4/Maskottchen_emotionen_4_4.gif"
+    import achievement from "src/assets/achievements/Achievements-04.png"
 </script>
 
 <div class="flex flex-col h-full justify-end items-center pb-8">
@@ -18,7 +18,7 @@
             <p class="h-full text-slate-600 text-lg">
                 Du hast drei Achievements erhalten!
                 <br/>
-                Dieses Kapitel steht dir nun auch als Zusammenfassung zur Verfügung.
+                Du kannst dir dieses Kapitel jetzt im Hauptmenü als Zusammenfassung ansehen!
             </p>
        </div> 
     </div>

@@ -16,6 +16,6 @@
     <h4 class="text-slate-600 text-lg font-medium self-start mb-8 px-12">
         Wähle die richtige Antwort aus.
     </h4>
-    <Questions question="Stimmt es, das Videospiele nur die Reaktionszeit fördern?" a="Gameboy" b="Playstation 1" c="NES" d="VR Gaming" answer="c" onAnswer={setIsCorrect}/>
+    <Questions question="Dein Kind möchte von zu Hause mit seinen Freunden spielen. Für welche Art von Spiel entscheidet es sich?" a="Online Spiel" b="Offline Spiel" c="Es ist unmöglich" d="Alles ist Möglich" answer="a" onAnswer={setIsCorrect}/>
     <TextbubbleAndEnemy maskotImgSrc={isCorrect ? maskotHappy : maskotCringe} enemyImgSrc={enemy} text={isCorrect ? `Die Antwort ist richtig! Gut gemacht, ${$username}!`: `Du hast es fast geschafft, ${$username}!`}/>
 </div>

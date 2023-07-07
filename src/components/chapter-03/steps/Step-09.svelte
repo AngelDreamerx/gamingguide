@@ -15,7 +15,7 @@
     <!-- LEFT -->
     <HalfTextbox>
         <!-- Header -->
-        <h4 class="text-3xl font-bold">Die Geschichte der Videospiele</h4>
+        <h4 class="text-3xl font-bold">Altersbegrenzung</h4>
 
         <ScrollingTextbox>
             Viele Spiele haben Altersbeschränkungen, die darauf hinweisen, für welche Altersgruppe das Spiel geeignet ist.

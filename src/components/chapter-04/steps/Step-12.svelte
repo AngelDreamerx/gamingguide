@@ -1,6 +1,6 @@
 <script>
-    import maskot from "src/assets/maskot/emotions/Kapitel_2/Maskottchen_emotionen_2_4.gif"
-    import enemy from "src/assets/bosses/defeated/Boss_tot_2.gif"
+    import maskot from "src/assets/maskot/emotions/Kapitel_4/Maskottchen_emotionen_4_4.gif"
+    import enemy from "src/assets/bosses/defeated/Boss_tot_4.gif"
     import { username } from "src/lib/stores";
 </script>
 
@@ -12,7 +12,7 @@
             <p class="h-full text-slate-600 text-lg">
                 Sehr gut, {$username}, du hast das Ungeheuer besiegt! 
                 <br/>
-                Auf geht's zum 2. Kapitel.
+                Du bist ein Überflieger!
             </p>
        </div> 
        <img src={enemy} alt="enemy" class="h-64 absolute -right-16 bottom-0"/>

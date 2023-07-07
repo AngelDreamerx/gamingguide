@@ -4,10 +4,10 @@
 </script>
 
 <div class="flex flex-col h-full justify-center items-center gap-8">
-    <h1 class="text-6xl font-bold text-yellow-500 text-center">
+    <h1 class="text-6xl font-bold text-purple-500 text-center">
         Ein Gegner ist eingetroffen
     </h1>
-    <h2 class="text-2xl font-medium text-yellow-500">
+    <h2 class="text-2xl font-medium text-purple-500">
         Teste dein Wissen
     </h2>
     <div class="flex items-end gap-48 mt-auto mb-8">

@@ -38,11 +38,11 @@
   });
 </script>
 
-<div in:fade={{ duration: 500 }} class="z-40 flex flex-col mx-24 items-center pt-24 h-full relative">
-  <div class="flex mt-auto justify-end h-[100%] mb-24 items-end mx-auto relative">
+<div in:fade={{ duration: 500 }} class="z-40 flex flex-col mx-24 items-center pt-24 relative">
+  <div class="flex mt-auto justify-end gap-5 w-full mb-24 items-end mx-auto relative">
     {#each images as image, index}
       {#if $currentImage === index}
-        <img class="h-85 w-85 flex-1 shadow-xl rounded-2xl" src={image} alt="image" />
+        <img class="w-80 flex-1 shadow-xl rounded-2xl" src={image} alt="image" />
       {/if}
     {/each}
     <button

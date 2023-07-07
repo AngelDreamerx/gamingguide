@@ -1,6 +1,6 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout2.svelte";
-    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
+    import test from "src/assets/pictures/pic17.jpg"
 </script>
 
 <TextboxAndPicturesLayout textHeader="Adventure" image1={test} image1Label="Stray" image2={null} image2Label="">
