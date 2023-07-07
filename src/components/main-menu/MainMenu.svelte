@@ -2,8 +2,9 @@
   import MainMenuBackground from "./MainMenuBackground.svelte";
   import NamePickerStep from "./NamePickerStep.svelte";
   import GreetingStep from "./GreetingStep.svelte";
+  import TutorialStep from "./TutorialStep.svelte";
 
-  import { username, greetingDone, displayAchievements, displayGlossary } from 'src/lib/stores'
+  import { username, greetingDone, tutorialDone, displayAchievements, displayGlossary } from 'src/lib/stores'
   import Navbar from "./Navbar.svelte";
   import ChapterSelect from "./ChapterSelect.svelte";
   import Glossary from "./Glossary.svelte";
@@ -20,6 +21,8 @@
   <NamePickerStep />
 {:else if !$greetingDone} 
   <GreetingStep />
+{:else if !$tutorialDone} 
+  <TutorialStep />
 {:else} 
   <div in:fade={{duration: 500}} class="z-40 flex flex-col h-full relative">
     <Navbar />

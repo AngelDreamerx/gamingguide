@@ -6,6 +6,9 @@ username.subscribe((value) => localStorage.setItem('username', String(value)))
 export const greetingDone = writable(localStorage.getItem('greetingDone'))
 greetingDone.subscribe((value) => localStorage.setItem('greetingDone', String(value)))
 
+export const tutorialDone = writable(localStorage.getItem('tutorialDone'))
+tutorialDone.subscribe((value) => localStorage.setItem('tutorialDone', String(value)))
+
 export const sound = writable(true)
 
 export const chaptersProgress = writable(JSON.parse(localStorage.getItem('chaptersProgress') || '{}')) // use empty array as fallback

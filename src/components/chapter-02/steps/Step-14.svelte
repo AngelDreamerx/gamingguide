@@ -1,6 +1,6 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout2.svelte";
-    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
+    import test from "src/assets/pictures/pic13.jpg"
 </script>
 
 <TextboxAndPicturesLayout textHeader="Charakterentwicklung

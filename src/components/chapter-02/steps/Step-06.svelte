@@ -1,9 +1,9 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout2.svelte";
-    import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
+    import test from "src/assets/pictures/pic15.jpg"
 </script>
 
-<TextboxAndPicturesLayout textHeader="First Person Shooter" image1={test} image1Label="Gaming Convention" image2={null} image2Label="">
+<TextboxAndPicturesLayout textHeader="First Person Shooter" image1={test} image1Label="" image2={null} image2Label="">
     Ein sehr beliebtes Genre sind First-Person-Shooter oder auch „FPS“ genannt. Es zeichnet sich dadurch aus, das der Spieler die Perspektive des Hauptcharakters einnimmt und das Spielgeschehen aus der Egoperspektive erlebt.
     <br/>     
     <br/>     

@@ -1,6 +1,6 @@
 <script>
     import TextboxAndPicturesLayout from "src/components/basic-layout/TextboxAndPicturesLayout2.svelte";
-    import test from "src/assets/pictures/picture 14.jpg"
+    import test from "src/assets/pictures/pic12.jpg"
 </script>
 
 <TextboxAndPicturesLayout textHeader="Speicherstände" image1={test} image1Label="" image2={null} image2Label="">
