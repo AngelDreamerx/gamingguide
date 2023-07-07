@@ -9,12 +9,12 @@
 
   // Array of image paths for the slideshow
   const images = [
-    '/src/assets/pictures/tutorial/Tutorial_1.png',
-    '/src/assets/pictures/tutorial/Tutorial_2.png',
-    '/src/assets/pictures/tutorial/Tutorial_3.png',
-    '/src/assets/pictures/tutorial/Tutorial_4.png',
-    '/src/assets/pictures/tutorial/Tutorial_5.png',
-    '/src/assets/pictures/tutorial/Tutorial_6.png',
+    '/src/assets/pictures/Tutorial_1.png',
+    '/src/assets/pictures/Tutorial_2.png',
+    '/src/assets/pictures/Tutorial_3.png',
+    '/src/assets/pictures/Tutorial_4.png',
+    '/src/assets/pictures/Tutorial_5.png',
+    '/src/assets/pictures/Tutorial_6.png',
   ];
 
   // Writable store to hold the current image index
