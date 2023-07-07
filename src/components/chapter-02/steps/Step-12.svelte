@@ -3,7 +3,7 @@
     import test from "src/assets/pictures/pic14.jpg"
 </script>
 
-<TextboxAndPicturesLayout textHeader="Levels und Progression" image1={null} image1Label="Gaming Convention" image2={null} image2Label="">
+<TextboxAndPicturesLayout textHeader="Levels und Progression" image1={test} image1Label="Hades" image2={null} image2Label="">
     Viele Spiele verwenden Levels, um den Fortschritt des Spielers zu verfolgen.
     <br/>     
     <br/>     

@@ -3,7 +3,7 @@
     import test from "src/assets/backgrounds/desert/HG_desert_Hintergrund.png"
 </script>
 
-<TextboxAndPicturesLayout textHeader="Adventure" image1={test} image1Label="Gaming Convention" image2={null} image2Label="">
+<TextboxAndPicturesLayout textHeader="Adventure" image1={test} image1Label="Stray" image2={null} image2Label="">
     Adventure ist ein Spielgenre, das den Spieler in eine fesselnde und immersive Geschichte eintauchen lässt. In Adventures übernimmt der Spieler die Rolle eines Protagonisten, der Rätsel lösen, Objekte finden und mit Charakteren interagieren muss, um das Spiel voranzutreiben.
     <br/>     
     <br/>     

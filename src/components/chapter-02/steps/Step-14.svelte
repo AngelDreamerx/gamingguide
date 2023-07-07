@@ -4,7 +4,7 @@
 </script>
 
 <TextboxAndPicturesLayout textHeader="Charakterentwicklung
-und Anpassung" image1={null} image1Label="Gaming Convention" image2={null} image2Label="">
+und Anpassung" image1={test} image1Label="Die Sims 4" image2={null} image2Label="">
     Viele Spiele ermöglichen es den Spielern, ihre Charaktere anzupassen und zu entwickeln. 
     <br/>     
     <br/>     

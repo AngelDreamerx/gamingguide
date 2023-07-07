@@ -3,7 +3,7 @@
     import test from "src/assets/pictures/Missionen_Quests_Phasmophobia.jpg"
 </script>
 
-<TextboxAndPicturesLayout textHeader="Quests und Missionen" image1={null} image1Label="Gaming Convention" image2={null} image2Label="">
+<TextboxAndPicturesLayout textHeader="Quests und Missionen" image1={test} image1Label="Phasmophobia" image2={null} image2Label="">
     Quests und Missionen sind Ziele oder Aufgaben, die Spieler im Spiel abschließen müssen. 
     <br/>     
     <br/>     

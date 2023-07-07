@@ -3,7 +3,7 @@
     import test from "src/assets/pictures/pic12.jpg"
 </script>
 
-<TextboxAndPicturesLayout textHeader="Speicherstände" image1={test} image1Label="" image2={null} image2Label="">
+<TextboxAndPicturesLayout textHeader="Speicherstände" image1={test} image1Label="Dishonored" image2={null} image2Label="">
     Eine weitere wichtige Mechanik in Videospielen ist die Speichermöglichkeit. In vielen Spielen ist es möglich, den Spielstand zu speichern und zu laden, um jederzeit dort weiterzuspielen, wo man aufgehört hat.
     <br/>     
     <br/>     
