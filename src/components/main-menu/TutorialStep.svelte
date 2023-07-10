@@ -34,7 +34,7 @@
 
   // Start the slideshow when the component is mounted
   onMount(() => {
-    intervalId = setInterval(nextImage, 3000); // Switch image every 3 seconds
+    intervalId = setInterval(nextImage, 5000); // Switch image every 3 seconds
   });
 
   // Stop the slideshow when the component is destroyed
