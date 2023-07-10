@@ -4,6 +4,13 @@
   import { onMount, onDestroy } from 'svelte';
   import { writable } from 'svelte/store';
   import { fade } from "svelte/transition";
+  
+  import Tutorial_1 from "src/assets/pictures/Tutorial_1.png";
+  import Tutorial_2 from "src/assets/pictures/Tutorial_2.png";
+  import Tutorial_3 from "src/assets/pictures/Tutorial_3.png";
+  import Tutorial_4 from "src/assets/pictures/Tutorial_4.png";
+  import Tutorial_5 from "src/assets/pictures/Tutorial_5.png";
+  import Tutorial_6 from "src/assets/pictures/Tutorial_6.png";
 
   // Array of image paths for the slideshow
   const images = [
@@ -27,7 +34,7 @@
 
   // Start the slideshow when the component is mounted
   onMount(() => {
-    intervalId = setInterval(nextImage, 2000); // Switch image every 2 seconds
+    intervalId = setInterval(nextImage, 3000); // Switch image every 3 seconds
   });
 
   // Stop the slideshow when the component is destroyed
