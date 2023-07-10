@@ -4,7 +4,7 @@
   import { onMount, onDestroy } from 'svelte';
   import { writable } from 'svelte/store';
   import { fade } from "svelte/transition";
-  
+
   import Tutorial_1 from "src/assets/pictures/Tutorial_1.png";
   import Tutorial_2 from "src/assets/pictures/Tutorial_2.png";
   import Tutorial_3 from "src/assets/pictures/Tutorial_3.png";
@@ -12,14 +12,14 @@
   import Tutorial_5 from "src/assets/pictures/Tutorial_5.png";
   import Tutorial_6 from "src/assets/pictures/Tutorial_6.png";
 
-  // Array of image paths for the slideshow
+  // Array of image variables for the slideshow
   const images = [
-    './assets/pictures/Tutorial_1.png',
-    './assets/pictures/Tutorial_2.png',
-    './assets/pictures/Tutorial_3.png',
-    './assets/pictures/Tutorial_4.png',
-    './assets/pictures/Tutorial_5.png',
-    './assets/pictures/Tutorial_6.png',
+    Tutorial_1,
+    Tutorial_2,
+    Tutorial_3,
+    Tutorial_4,
+    Tutorial_5,
+    Tutorial_6,
   ];
 
   // Writable store to hold the current image index
