@@ -1,20 +1,18 @@
 <script>
   import maskotWireframe from 'src/assets/maskot/walk/Maskottchen_laufen_0.gif'
-
   import { tutorialDone } from 'src/lib/stores';
   import { onMount, onDestroy } from 'svelte';
   import { writable } from 'svelte/store';
-
   import { fade } from "svelte/transition";
 
   // Array of image paths for the slideshow
   const images = [
-    '/src/assets/pictures/Tutorial_1.png',
-    '/src/assets/pictures/Tutorial_2.png',
-    '/src/assets/pictures/Tutorial_3.png',
-    '/src/assets/pictures/Tutorial_4.png',
-    '/src/assets/pictures/Tutorial_5.png',
-    '/src/assets/pictures/Tutorial_6.png',
+    './assets/pictures/Tutorial_1.png',
+    './assets/pictures/Tutorial_2.png',
+    './assets/pictures/Tutorial_3.png',
+    './assets/pictures/Tutorial_4.png',
+    './assets/pictures/Tutorial_5.png',
+    './assets/pictures/Tutorial_6.png',
   ];
 
   // Writable store to hold the current image index
